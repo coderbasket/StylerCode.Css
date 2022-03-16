@@ -151,6 +151,8 @@ namespace StylerCode.Css
             return cssStyler;
         }
         #region Static
+        // 2 or more than Uppercase will become space: FirstBaseline -> first baseline.
+        // Underscore _ will be replaced with - : Align_Content -> align-content.
         static string GetStyleName(object enumName)
         {
             var str = enumName.ToString();
@@ -182,7 +184,7 @@ namespace StylerCode.Css
         public static string ValueStyle(CssProperties key, string value)
         {
             var keyString = GetStyleName(key);
-            return (keyString + ": " + value + "; ");
+            return (key + ": " + value + "; ");
         } 
         #endregion
     }
