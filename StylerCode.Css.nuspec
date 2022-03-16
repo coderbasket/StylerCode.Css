@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>StylerCode.Css</id>
+    <version>1</version>
+    <title>tylerCode.Css</title>
+    <authors>Coder</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+	 <projectUrl>https://github.com/coderbasket/StylerCode.Css</projectUrl>
+	  <!-- <icon>icon.png</icon> -->
+    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
+    <description>Turn C# code to css string</description>
+    <releaseNotes>New upload</releaseNotes>
+    <copyright></copyright>
+    <tags>C# Blazor Asp.Net Maui</tags>
+  </metadata>
+</package>
