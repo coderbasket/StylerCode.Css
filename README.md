@@ -11,6 +11,13 @@ CssStyler verseStyle = new CssStyler();
 
             var spn = $"<span {verseStyle.ToAttributeStyles()}>{verseNumber}</span>";
             <div style="@verseStyle"></div>
+            
+            CssStyler myStyles = new CssStyler()
+    {
+		Align_Content = Align_Content.Center,
+		Background_Color = "red",
+		Color = Colors.AliceBlue.ToHex(),
+    };
 ```
 Cast styles to string or vice-versa
 ```csharp
