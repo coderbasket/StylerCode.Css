@@ -1,6 +1,6 @@
 # StylerCode.Css
 ## NuGet
-* NuGet: [StylerCode.Css](https://www.nuget.org/packages/StylerCode.Css/) [![NuGet](https://img.shields.io/nuget/v/Plugin.InAppBilling.svg?label=NuGet)](https://www.nuget.org/packages/StylerCode.Css/)
+* NuGet: [StylerCode.Css](https://www.nuget.org/packages/StylerCode.Css/) [![NuGet](https://img.shields.io/nuget/v/StylerCode.Css?label=NuGet)](https://www.nuget.org/packages/StylerCode.Css/)
 Style html using C# codes.
 ```csharp
 CssStyler verseStyle = new CssStyler();
