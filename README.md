@@ -11,11 +11,28 @@ CssStyler verseStyle = new CssStyler();
 
             var spn = $"<span {verseStyle.ToAttributeStyles()}>{verseNumber}</span>";
             <div style="@verseStyle"></div>
+           
 ```
-Cast styles to string
+Cast styles to string or vice-versa
 ```csharp
 public CssStyler DrawerStyle { get; } = (CssStyler)"height: 100%; width: 0; position: fixed; z-index: 1; top: 0; left: 0; background-color: #111; overflow-x: hidden;transition: 0.5s;padding-top: 60px;";
 ```
+```csharp
+ 
+    CssStyler myStyles = new CssStyler()
+    {
+       Align_Content = Align_Content.Center,
+       Background_Color = "red",
+       Color = Colors.AliceBlue.ToHex(),
+    };
+    
+    
+    CssStyler myStyles = new CssStyler();
+		myStyles.AddStyle(CssProperties.Animation_Fill_Mode, "forwards").AddStyle(CssProperties.Color, "red");
+		myStyles.Align_Content = Align_Content.Center;
+		myStyles.Border_Left = "30px";
 
+		myStyles.Remove(CssProperties.Color);
+```
 Code nuget publish => oy2p6bifc57fjnxo7u7al3qs5aem72kunf4cstnsqfd2la
 
