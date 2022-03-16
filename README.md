@@ -14,4 +14,5 @@ Cast styles to string
 ```csharp
 public CssStyler DrawerStyle { get; } = (CssStyler)"height: 100%; width: 0; position: fixed; z-index: 1; top: 0; left: 0; background-color: #111; overflow-x: hidden;transition: 0.5s;padding-top: 60px;";
 ```
+
 Code nuget publish => oy2p6bifc57fjnxo7u7al3qs5aem72kunf4cstnsqfd2la
