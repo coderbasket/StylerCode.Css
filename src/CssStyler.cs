@@ -82,32 +82,9 @@ namespace StylerCode.Css
         {
             StyleChanged?.Invoke(this, this);
         }
-        string GetStyleName(object enumName)
-        {
-            var str = enumName.ToString();
-            if(str.Contains("_"))
-               str = str.ToString().ToLower().Replace("_", "-");
-            else
-            {
-                var split = Regex.Split(str, @"(?<!^)(?=[A-Z])");
-                if (split.Length == 1)
-                    str = str.ToLower().ToLower();
-                else
-                {
-                    var line = new List<string>();
-                    foreach(var sp in split)
-                    {
-                       line.Add(sp);
-                    }
-                    str = string.Join(" ", line);
-                    str = str.ToLower();
-                }
-                
-            }
-            return str;
-        }
         
-        string CreateValue()
+        
+         string CreateValue()
         {
             if (this._stylesList.Count <= 0)
                 return null;
@@ -173,7 +150,41 @@ namespace StylerCode.Css
             }
             return cssStyler;
         }
-        
+        #region Static
+        static string GetStyleName(object enumName)
+        {
+            var str = enumName.ToString();
+            if (str.Contains("_"))
+                str = str.ToString().ToLower().Replace("_", "-");
+            else
+            {
+                var split = Regex.Split(str, @"(?<!^)(?=[A-Z])");
+                if (split.Length == 1)
+                    str = str.ToLower().ToLower();
+                else
+                {
+                    var line = new List<string>();
+                    foreach (var sp in split)
+                    {
+                        line.Add(sp);
+                    }
+                    str = string.Join(" ", line);
+                    str = str.ToLower();
+                }
+
+            }
+            return str;
+        }
+        public static string ValueStyle(string key, string value)
+        {
+            return (key + ": " + value + "; ");
+        }
+        public static string ValueStyle(CssProperties key, string value)
+        {
+            var keyString = GetStyleName(key);
+            return (keyString + ": " + value + "; ");
+        } 
+        #endregion
     }
 
 }
