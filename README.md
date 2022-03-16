@@ -25,6 +25,14 @@ public CssStyler DrawerStyle { get; } = (CssStyler)"height: 100%; width: 0; posi
        Background_Color = "red",
        Color = Colors.AliceBlue.ToHex(),
     };
+    
+    
+    CssStyler myStyles = new CssStyler();
+		myStyles.AddStyle(CssProperties.Animation_Fill_Mode, "forwards").AddStyle(CssProperties.Color, "red");
+		myStyles.Align_Content = Align_Content.Center;
+		myStyles.Border_Left = "30px";
+
+		myStyles.Remove(CssProperties.Color);
 ```
 Code nuget publish => oy2p6bifc57fjnxo7u7al3qs5aem72kunf4cstnsqfd2la
 
