@@ -8,6 +8,7 @@ CssStyler verseStyle = new CssStyler();
             verseStyle.AddStyle(CssProperties.Color, SystemAccentColor.ToHex());
 
             var spn = $"<span {verseStyle.ToAttributeStyles()}>{verseNumber}</span>";
+            <div style="@verseStyle"></div>
 ```
 Cast styles to string
 ```csharp
