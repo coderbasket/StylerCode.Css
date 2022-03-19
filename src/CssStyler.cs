@@ -68,6 +68,7 @@ namespace StylerCode.Css
                
             }
         }
+        
         public void Remove(CssProperties key)
         {
             var keyString = GetStyleName(key);
