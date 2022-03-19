@@ -4,15 +4,15 @@
 Style html using C# codes.
 ```csharp
 Css style = new Css();
-            style.Add(Cp.Font_Size, FontVerseNumberSize);
-            style.Add(Cp.Font_Style, "italic");
-            style.Add(Cp.Font_Weight, "normal");
-            style.Add(Cp.Color, SystemAccentColor.ToHex());
+ style.Add(Cp.Font_Size, FontVerseNumberSize);
+ style.Add(Cp.Font_Style, "italic");
+ style.Add(Cp.Font_Weight, "normal");
+ style.Add(Cp.Color, SystemAccentColor.ToHex());
 	    
-            style.Add(Cp.Transform, Cv.TranslateX("60px"));
+ style.Add(Cp.Transform, Cv.TranslateX("60px"));
 	    
-            var spn = $"<span {style.ToAttributeStyles()}>{verseNumber}</span>";
-            <div style="@verseStyle"></div>
+ var spn = $"<span {style.ToAttributeStyles()}>{verseNumber}</span>";
+ <div style="@verseStyle"></div>
            
 ```
 Cast styles to string or vice-versa
