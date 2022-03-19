@@ -4,28 +4,28 @@
     "Summary": "Specifies the alignment between the lines inside a flexible container when the items do not use all available space.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_align-content.asp",
     "Example": "style=\"align-content: center;\"",
-    "Values": [ "stretch ", " center ", " flex-start ", " flex-end ", " space-between ", " space-around ", " initial ", " inherit" ]
+    "Values": [ "stretch", "center", "flex-start", "flex-end", "space-between", "space-around", "initial", "inherit" ]
   },
   {
     "Title": "align-items",
     "Summary": "Specifies the alignment for items inside a flexible container.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_align-items.asp",
     "Example": "style=\"align-items: center;\"",
-    "Values": [ "stretch ", " center ", " flex-start ", " flex-end ", " baseline ", " initial ", " inherit" ]
+    "Values": [ "stretch", "center", "flex-start", "flex-end", "baseline", "initial", "inherit" ]
   },
   {
     "Title": "align-self",
     "Summary": "Specifies the alignment for selected items inside a flexible container",
     "Url": "https://www.w3schools.com/cssref/css3_pr_align-self.asp",
     "Example": "style=\"align-self: center;\"",
-    "Values": [ "auto ", " stretch ", " center ", " flex-start ", " flex-end ", " baseline ", " initial ", " inherit" ]
+    "Values": [ "auto", "stretch", "center", "flex-start", "flex-end", "baseline", "initial", "inherit" ]
   },
   {
     "Title": "all",
     "Summary": "Resets all properties (except unicode-bidi and direction)",
     "Url": "https://www.w3schools.com/cssref/css3_pr_all.asp",
     "Example": "style=\"all: initial;\"",
-    "Values": [ "initial ", " inherit ", " unset" ]
+    "Values": [ "initial", "inherit", "unset" ]
   },
   {
     "Title": "animation",
@@ -39,273 +39,273 @@
     "Summary": "Specifies a delay for the start of an animation",
     "Url": "https://www.w3schools.com/cssref/css3_pr_animation-delay.asp",
     "Example": "style=\"animation-delay: 2s;\"",
-    "Values": [ "time ", " initial ", " inherit" ]
+    "Values": [ "time", "initial", "inherit" ]
   },
   {
     "Title": "animation-direction",
     "Summary": "Specifies whether an animation should be played forwards, backwards or in alternate cycles.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_animation-direction.asp",
     "Example": "style=\"animation-direction: alternate;\"",
-    "Values": [ "normal ", " reverse ", " alternate ", " alternate-reverse ", " initial", "inherit" ]
+    "Values": [ "normal", "reverse", "alternate", "alternate-reverse", "initial", "inherit" ]
   },
   {
     "Title": "animation-duration",
     "Summary": "Specifies how long an animation should take to complete one cycle.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_animation-duration.asp",
     "Example": "style=\"animation-duration: 3s;\"",
-    "Values": [ "time ", " initial ", " inherit" ]
+    "Values": [ "time", "initial", "inherit" ]
   },
   {
     "Title": "animation-fill-mode",
     "Summary": "Specifies a style for the element when the animation is not playing (before it starts, after it ends, or both).",
     "Url": "https://www.w3schools.com/cssref/css3_pr_animation-fill-mode.asp",
     "Example": "style=\"animation-fill-mode: forwards;\"",
-    "Values": [ "none ", " forwards ", " backwards ", " both ", " initial ", " inherit" ]
+    "Values": [ "none", "forwards", "backwards", "both", "initial", "inherit" ]
   },
   {
     "Title": "animation-iteration-count",
     "Summary": "Specifies the number of times an animation should be played.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_animation-iteration-count.asp",
     "Example": "style=\"animation-iteration-count: 2;\"",
-    "Values": [ "number ", " infinite ", " initial ", " inherit" ]
+    "Values": [ "number", "infinite", "initial", "inherit" ]
   },
   {
     "Title": "animation-name",
     "Summary": "Specifies a name for the @keyframes animation.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_animation-name.asp",
     "Example": "style=\"animation-name: mymove;\"",
-    "Values": [ "keyframename ", " none ", " initial ", " inherit" ]
+    "Values": [ "keyframename", "none", "initial", "inherit" ]
   },
   {
     "Title": "animation-play-state",
     "Summary": "Specifies whether the animation is running or paused.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_animation-play-state.asp",
     "Example": "style=\"animation-play-state: paused;\"",
-    "Values": [ "paused ", " running ", " initial ", " inherit" ]
+    "Values": [ "paused", "running", "initial", "inherit" ]
   },
   {
     "Title": "animation-timing-function",
     "Summary": "Specifies the speed curve of an animation.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_animation-timing-function.asp",
     "Example": "style=\"animation-timing-function: linear;\"",
-    "Values": [ "linear ", " ease ", " ease-in ", " ease-out ", " ease-in-out ", " step-start ", " step-end ", " steps(int,start", "end) ", " cubic-bezier(n,n,n,n) ", " initial ", " inherit" ]
+    "Values": [ "linear", "ease", "ease-in", "ease-out", "ease-in-out", "step-start", "step-end", "steps(int,start", "end)", "cubic-bezier(n,n,n,n)", "initial", "inherit" ]
   },
   {
     "Title": "backface-visibility",
     "Summary": "Defines whether or not the back face of an element should be visible when facing the user.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_backface-visibility.asp",
     "Example": "style=\"backface-visibility: hidden;\" | style=\"-webkit-backface-visibility: hidden; /* Safari */\"",
-    "Values": [ "visible ", " hidden ", " initial ", " inherit;" ]
+    "Values": [ "visible", "hidden", "initial", "inherit;" ]
   },
   {
     "Title": "background",
     "Summary": "A shorthand property for all the background-* properties",
     "Url": "https://www.w3schools.com/cssref/css3_pr_background.asp",
     "Example": "style=\"background: lightblue url(\"img_tree.gif\") no-repeat fixed center;\"",
-    "Values": [ "bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial ", " inherit" ]
+    "Values": [ "bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial", "inherit" ]
   },
   {
     "Title": "background-attachment",
     "Summary": "Sets whether a background image scrolls with the rest of the page, or is fixed.",
     "Url": "https://www.w3schools.com/cssref/pr_background-attachment.asp",
     "Example": "style=\"background-attachment: fixed;\"",
-    "Values": [ "scroll ", " fixed ", " local ", " initial ", " inherit" ]
+    "Values": [ "scroll", "fixed", "local", "initial", "inherit" ]
   },
   {
     "Title": "background-blend-mode",
     "Summary": "Specifies the blending mode of each background layer (color/image).",
     "Url": "https://www.w3schools.com/cssref/pr_background-blend-mode.asp",
     "Example": "style=\"background-blend-mode: lighten;\"",
-    "Values": [ "normal ", " multiply ", " screen ", " overlay ", " darken ", " lighten ", " color-dodge ", " saturation ", " color ", " luminosity" ]
+    "Values": [ "normal", "multiply", "screen", "overlay", "darken", "lighten", "color-dodge", "saturation", "color", "luminosity" ]
   },
   {
     "Title": "background-clip",
     "Summary": "Defines how far the background (color or image) should extend within an element.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_background-clip.asp",
     "Example": "style=\"background-clip: padding-box;\"",
-    "Values": [ "border-box ", " padding-box ", " content-box ", " initial ", " inherit" ]
+    "Values": [ "border-box", "padding-box", "content-box", "initial", "inherit" ]
   },
   {
     "Title": "background-color",
     "Summary": "Specifies the background color of an element.",
     "Url": "https://www.w3schools.com/cssref/pr_background-color.asp",
     "Example": "style=\"background-color: coral;\"",
-    "Values": [ "color ", " transparent ", " initial ", " inherit" ]
+    "Values": [ "color", "transparent", "initial", "inherit" ]
   },
   {
     "Title": "background-image",
     "Summary": "Specifies one or more background images for an element.",
     "Url": "https://www.w3schools.com/cssref/pr_background-image.asp",
     "Example": "style=\"background-image: url(\"paper.gif\");\"",
-    "Values": [ "url ", " none ", " initial ", " inherit;" ]
+    "Values": [ "url", "none", "initial", "inherit;" ]
   },
   {
     "Title": "background-origin",
     "Summary": "Specifies the origin position of a background image.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_background-origin.asp",
     "Example": "style=\"background-origin: content-box;\"",
-    "Values": [ "padding-box ", " border-box ", " content-box ", " initial ", " inherit" ]
+    "Values": [ "padding-box", "border-box", "content-box", "initial", "inherit" ]
   },
   {
     "Title": "background-position",
     "Summary": "Specifies the origin position of a background image.",
     "Url": "https://www.w3schools.com/cssref/pr_background-position.asp",
     "Example": "style=\"background-position: center;\"",
-    "Values": [ "left top ", " left center ", " left bottom ", " right top ", " right center  ", " right bottom ", " center top ", " center center ", " center bottom" ]
+    "Values": [ "left top", "left center", "left bottom", "right top", "right center", "right bottom", "center top", "center center", "center bottom" ]
   },
   {
     "Title": "background-repeat",
     "Summary": "Sets if/how a background image will be repeated.",
     "Url": "https://www.w3schools.com/cssref/pr_background-repeat.asp",
     "Example": "style=\"background-repeat: repeat-y;\"",
-    "Values": [ "repeat ", " repeat-x ", " repeat-y ", " no-repeat ", " initial ", " inherit" ]
+    "Values": [ "repeat", "repeat-x", "repeat-y", "no-repeat", "initial", "inherit" ]
   },
   {
     "Title": "background-size",
     "Summary": "Specifies the size of the background images.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_background-size.asp",
     "Example": "style=\"background-size: auto;\"",
-    "Values": [ "auto ", " length ", " cover ", " contain ", " initial ", " inherit" ]
+    "Values": [ "auto", "length", "cover", "contain", "initial", "inherit" ]
   },
   {
     "Title": "border",
     "Summary": "SA shorthand property for border-width, border-style and border-color.",
     "Url": "https://www.w3schools.com/cssref/pr_border.asp",
     "Example": "style=\"border: 5px solid red;\" | style=\"border: 4px dotted blue;\" | style=\"border: double;\"",
-    "Values": [ "border-width border-style border-color ", " initial ", " inherit" ]
+    "Values": [ "border-width border-style border-color", "initial", "inherit" ]
   },
   {
     "Title": "border-bottom",
     "Summary": "A shorthand property for border-bottom-width, border-bottom-style and border-bottom-color.",
     "Url": "https://www.w3schools.com/cssref/pr_border-bottom.asp",
     "Example": "style=\"border-bottom: 5px solid red;\" | style=\"border-bottom: 4px dotted blue;\" | style=\"border-bottom: double;\"",
-    "Values": [ "border-width border-style border-color ", " initial ", " inherit" ]
+    "Values": [ "border-width border-style border-color", "initial", "inherit" ]
   },
   {
     "Title": "border-bottom-color",
     "Summary": "Sets the color of the bottom border.",
     "Url": "https://www.w3schools.com/cssref/pr_border-bottom_color.asp",
     "Example": "style=\"border-bottom-color: coral;\"",
-    "Values": [ "color ", " transparent ", " initial ", " inherit" ]
+    "Values": [ "color", "transparent", "initial", "inherit" ]
   },
   {
     "Title": "border-bottom-left-radius",
     "Summary": "Defines the radius of the border of the bottom-left corner.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp",
     "Example": "style=\"border-bottom-left-radius: 25px;\" | style=\"border-bottom-left-radius: 50px 20px;\"",
-    "Values": [ "length ", " % [length ", " %] ", " initial ", " inherit" ]
+    "Values": [ "length", "% [length", "%]", "initial", "inherit" ]
   },
   {
     "Title": "border-bottom-right-radius",
     "Summary": "Defines the radius of the border of the bottom-right corner.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp",
     "Example": "style=\"border-bottom-right-radius: 25px;\" | style=\"border-bottom-right-radius: 50px 20px;\"",
-    "Values": [ "length ", " % [length ", " %] ", " initial ", " inherit" ]
+    "Values": [ "length", "% [length", "%]", "initial", "inherit" ]
   },
   {
     "Title": "border-bottom-style",
     "Summary": "Sets the style of the bottom border.",
     "Url": "https://www.w3schools.com/cssref/pr_border-bottom_style.asp",
     "Example": "style=\"border-bottom-style: dotted;\"",
-    "Values": [ "none ", " hidden ", " dotted ", " dashed ", " solid ", " double ", " groove ", " ridge ", " inset ", " outset ", " initial ", " inherit" ]
+    "Values": [ "none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset", "initial", "inherit" ]
   },
   {
     "Title": "border-bottom-width",
     "Summary": "Sets the width of the bottom border.",
     "Url": "https://www.w3schools.com/cssref/pr_border-bottom_width.asp",
     "Example": "style=\"border-bottom-width: thin;\"",
-    "Values": [ "medium ", " thin ", " thick ", " length ", " initial ", " inherit" ]
+    "Values": [ "medium", "thin", "thick", "length", "initial", "inherit" ]
   },
   {
     "Title": "border-collapse",
     "Summary": "Sets whether table borders should collapse into a single border or be separated.",
     "Url": "https://www.w3schools.com/cssref/pr_border-collapse.asp",
     "Example": "style=\"border-collapse: separate;\" | style=\"border-collapse: collapse;\"",
-    "Values": [ "separate ", " collapse ", " initial ", " inherit" ]
+    "Values": [ "separate", "collapse", "initial", "inherit" ]
   },
   {
     "Title": "border-color",
     "Summary": "Sets the color of the four borders.",
     "Url": "https://www.w3schools.com/cssref/pr_border-color.asp",
     "Example": "style=\"border-color: coral;\"",
-    "Values": [ "color ", " transparent ", " initial ", " inherit" ]
+    "Values": [ "color", "transparent", "initial", "inherit" ]
   },
   {
     "Title": "border-image",
     "Summary": "A shorthand property for all the border-image-* properties.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_border-image.asp",
     "Example": "style=\"border-image: url(border.png) 30 round;\"",
-    "Values": [ "source slice width outset repeat ", " initial ", " inherit" ]
+    "Values": [ "source slice width outset repeat", "initial", "inherit" ]
   },
   {
     "Title": "border-image-outset",
     "Summary": "Specifies the amount by which the border image area extends beyond the border box.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_border-image-outset.asp",
     "Example": "style=\"border-image-outset: 10px;\"",
-    "Values": [ "length ", " number ", " initial ", " inherit" ]
+    "Values": [ "length", "number", "initial", "inherit" ]
   },
   {
     "Title": "border-image-repeat",
     "Summary": "Specifies whether the border image should be repeated, rounded or stretched.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_border-image-repeat.asp",
     "Example": "style=\"border-image-repeat: repeat;\"",
-    "Values": [ "stretch ", " repeat ", " round ", " space ", " initial ", " inherit" ]
+    "Values": [ "stretch", "repeat", "round", "space", "initial", "inherit" ]
   },
   {
     "Title": "border-image-slice",
     "Summary": "Specifies how to slice the border image.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_border-image-slice.asp",
     "Example": "style=\"border-image-slice: 30%;\"",
-    "Values": [ "number ", " % ", " fill ", " initial ", " inherit" ]
+    "Values": [ "number", "%", "fill", "initial", "inherit" ]
   },
   {
     "Title": "border-image-source",
     "Summary": "Specifies the path to the image to be used as a border.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_border-image-source.asp",
     "Example": "style=\"border-image-source: url(border.png);\"",
-    "Values": [ "snone ", " image ", " initial ", " inherit;" ]
+    "Values": [ "snone", "image", "initial", "inherit;" ]
   },
   {
     "Title": "border-image-width",
     "Summary": "Specifies the width of the border image.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_border-image-width.asp",
     "Example": "style=\"border-image-width: 10px;\"",
-    "Values": [ "number ", " % ", " auto ", " initial ", " inherit" ]
+    "Values": [ "number", "%", "auto", "initial", "inherit" ]
   },
   {
     "Title": "border-left",
     "Summary": "A shorthand property for all the border-left-* properties.",
     "Url": "https://www.w3schools.com/cssref/pr_border-left.asp",
     "Example": "style=\"border-left: 5px solid red;\" | style=\"border-left: 4px dotted blue;\" | style=\"border-left: double;\"",
-    "Values": [ "border-width border-style border-color ", " initial ", " inherit" ]
+    "Values": [ "border-width border-style border-color", "initial", "inherit" ]
   },
   {
     "Title": "border-left-color",
     "Summary": "Sets the color of the left border.",
     "Url": "https://www.w3schools.com/cssref/pr_border-left_color.asp",
     "Example": "style=\"border-left-color: coral;\"",
-    "Values": [ "color ", " transparent ", " initial ", " inherit" ]
+    "Values": [ "color", "transparent", "initial", "inherit" ]
   },
   {
     "Title": "border-left-style",
     "Summary": "Sets the style of the left border.",
     "Url": "https://www.w3schools.com/cssref/pr_border-left_style.asp",
     "Example": "style=\"border-left-style: dotted;\"",
-    "Values": [ "none ", " hidden ", " dotted ", " dashed ", " solid ", " double ", " groove ", " ridge ", " inset ", " outset ", " initial ", " inherit;" ]
+    "Values": [ "none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset", "initial", "inherit;" ]
   },
   {
     "Title": "border-left-width",
     "Summary": "Sets the width of the left border.",
     "Url": "https://www.w3schools.com/cssref/pr_border-left_width.asp",
     "Example": "style=\"border-left-width: thin;\"",
-    "Values": [ "medium ", " thin ", " thick ", " length ", " initial ", " inherit" ]
+    "Values": [ "medium", "thin", "thick", "length", "initial", "inherit" ]
   },
   {
     "Title": "border-radius",
     "Summary": "A shorthand property for the four border-*-radius properties.",
     "Url": "https://www.w3schools.com/cssref/css3_pr_border-radius.asp",
     "Example": "style=\"border-radius: 25px;\" | style=\"border-radius: 50px 20px;\"",
-    "Values": [ "1-4 length ", " % / 1-4 length ", " % ", " initial ", " inherit" ]
+    "Values": [ "1-4 length", "% / 1-4 length", "%", "initial", "inherit" ]
   },
   {
     "Title": "border-right",
@@ -935,14 +935,14 @@
     "Summary": "Specifies the size of the columns, and how many columns in a grid layout.",
     "Url": "https://www.w3schools.com/cssref/pr_grid-template-columns.asp",
     "Example": "style=\"grid-template-columns: &lt;custom identifier&gt; &lt;length&gt; &lt;custom identifier&gt; &lt;custom identifier&gt;;\"",
-    "Values": [ "none", "auto", "&lt;length&gt; &lt;flex length&gt;", "&lt;custom identifier&gt; &lt;length&gt;", "&lt;custom identifier&gt; &lt;length&gt; &lt;custom identifier&gt; &lt;custom identifier&gt;", "minmax(min, max)", "max-content", "min-content", "fit-content(&lt;length&gt;)", "fit-content(&lt;percentage&gt;)", "repeat()", "subgrid", "masonry", "&lt;length&gt; repeat() &lt;length&gt;", "minmax(min, max)\r\n        repeat() &lt;percentage&gt;", "&lt;custom identifier&gt; &lt;length&gt; &lt;custom identifier&gt;\r\n        repeat()\r\n        &lt;length&gt;", "&lt;custom identifier&gt; &lt;custom identifier&gt; &lt;length&gt;\r\n        repeat() &lt;custom identifier&gt;\r\n      " ]
+    "Values": [ "none", "auto", "&lt;length&gt; &lt;flex length&gt;", "&lt;custom identifier&gt; &lt;length&gt;", "&lt;custom identifier&gt; &lt;length&gt; &lt;custom identifier&gt; &lt;custom identifier&gt;", "minmax(min, max)", "max-content", "min-content", "fit-content(&lt;length&gt;)", "fit-content(&lt;percentage&gt;)", "repeat()", "subgrid", "masonry", "&lt;length&gt; repeat() &lt;length&gt;", "minmax(min, max)\r\n        repeat() &lt;percentage&gt;", "&lt;custom identifier&gt; &lt;length&gt; &lt;custom identifier&gt;\r\n        repeat()\r\n        &lt;length&gt;", "&lt;custom identifier&gt; &lt;custom identifier&gt; &lt;length&gt;\r\n        repeat() &lt;custom identifier&gt;" ]
   },
   {
     "Title": "grid-template-rows",
     "Summary": "Specifies the size of the rows in a grid layout.",
     "Url": "https://www.w3schools.com/cssref/pr_grid-template-rows.asp",
     "Example": "style=\"grid-template-rows: &lt;custom identifier&gt; &lt;length&gt; &lt;custom identifier&gt; &lt;custom identifier&gt;;\"",
-    "Values": [ "none", "auto", "&lt;length&gt; &lt;flex length&gt;", "&lt;custom identifier&gt; &lt;length&gt;", "&lt;custom identifier&gt; &lt;length&gt; &lt;custom identifier&gt; &lt;custom identifier&gt;", "minmax(min, max)", "max-content", "min-content", "fit-content(&lt;length&gt;)", "fit-content(&lt;percentage&gt;)", "repeat()", "subgrid", "masonry", "&lt;length&gt; repeat() &lt;length&gt;", "minmax(min, max)\r\n        repeat() &lt;percentage&gt;", "&lt;custom identifier&gt; &lt;length&gt; &lt;custom identifier&gt;\r\n        repeat()\r\n        &lt;length&gt;", "&lt;custom identifier&gt; &lt;custom identifier&gt; &lt;length&gt;\r\n        repeat() &lt;custom identifier&gt;\r\n      " ]
+    "Values": [ "none", "auto", "&lt;length&gt; &lt;flex length&gt;", "&lt;custom identifier&gt; &lt;length&gt;", "&lt;custom identifier&gt; &lt;length&gt; &lt;custom identifier&gt; &lt;custom identifier&gt;", "minmax(min, max)", "max-content", "min-content", "fit-content(&lt;length&gt;)", "fit-content(&lt;percentage&gt;)", "repeat()", "subgrid", "masonry", "&lt;length&gt; repeat() &lt;length&gt;", "minmax(min, max)\r\n        repeat() &lt;percentage&gt;", "&lt;custom identifier&gt; &lt;length&gt; &lt;custom identifier&gt;\r\n        repeat()\r\n        &lt;length&gt;", "&lt;custom identifier&gt; &lt;custom identifier&gt; &lt;length&gt;\r\n        repeat() &lt;custom identifier&gt;" ]
   },
   {
     "Title": "hanging-punctuation",
