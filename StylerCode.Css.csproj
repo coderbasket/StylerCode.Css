@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="src\Helpers\TextMaker.cst" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="src\Helpers\TextMaker.cst" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="src\Bases\" />
   </ItemGroup>
 
