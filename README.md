@@ -8,7 +8,9 @@ Css verseStyle = new Css();
             verseStyle.Add(Cp.Font_Style, "italic");
             verseStyle.Add(Cp.Font_Weight, "normal");
             verseStyle.Add(Cp.Color, SystemAccentColor.ToHex());
-
+	    
+            verseWordsStyle.Add(Cp.Transform, Cv.TranslateX("60px"));
+	    
             var spn = $"<span {verseStyle.ToAttributeStyles()}>{verseNumber}</span>";
             <div style="@verseStyle"></div>
            
