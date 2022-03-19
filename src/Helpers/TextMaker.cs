@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -7,18 +8,37 @@ namespace StylerCode.Css
 {
     public class TextMaker
     {
-        public static string Execute()
+        public static List<string> GenerateCsharpValues(List<CssValue_ForJson> cssValues)
         {
-
-            StringBuilder sb = new StringBuilder();
-            var names = Enum.GetNames(typeof(Cp));
-            foreach (var name in names)
+            var result = new List<string>();
+            foreach(var value in cssValues)
             {
-                //"+name.ToLower()+"
-                var code = "string  _" + name.ToLower() + ";\n        /// <summary>\n        /// " + name.ToLower() + "\n        /// </summary>\n        public string " + name + "\n        {\n            get { return _" + name.ToLower() + "; }\n            set\n            {\n                if (!string.IsNullOrEmpty(value))\n                {\n                    _" + name.ToLower() + " = value;\n                    var key = GetStyleName(nameof(" + name + "));\n                    _stylesList[key] = value;\n                }\n            }\n        }\n\n";
-                sb.AppendLine(code);
+                var list = GetValuesJson(value);
+                if (list != null)
+                    result.AddRange(list);
             }
-            return sb.ToString();
+            _checker.Clear();
+            return result;
+        }
+        static Dictionary<string, string> _checker = new Dictionary<string, string>();
+        static List<string> GetValuesJson(CssValue_ForJson cssValue)
+        {
+            var result = new List<string>();
+            
+            if (cssValue.Values == null)
+                return null;
+            foreach(var value in cssValue.Values)
+            {
+                var names = value.Split('|').ToList();
+                var name = System.Net.WebUtility.HtmlDecode(value);
+               
+                if (!_checker.ContainsKey(name))
+                {
+                    result.Add($"public const string {GetEnumName(name)} = \"{name}\";");
+                    _checker[name] = name;
+                }
+            }
+            return result;
         }
         public static string GetPropertiesCode(CssProperty_ForJson property)
         {
@@ -46,8 +66,22 @@ namespace StylerCode.Css
             }
             else
             {
-
-               str = FirstCharToUpper(str);
+                var list = new List<string>();
+                var split = Regex.Split(str, @"(?<!^)(?=[A-Z])");
+                if (split.Length == 1)
+                {
+                    str = FirstCharToUpper(str);
+                }
+                else
+                {
+                    foreach (var name in split)
+                    {
+                        var cName = FirstCharToUpper(name);
+                        list.Add(cName);
+                    }
+                    str = string.Join(" ", list);
+                    
+                }
             }
             return str;
         }
