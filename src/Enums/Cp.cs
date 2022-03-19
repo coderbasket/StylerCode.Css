@@ -3342,8 +3342,8 @@ namespace StylerCode.Css
         /// <example>
         /// 
         /// <code>
-        /// style="text-decoration: "
-        /// 
+        /// style="text-decoration: underline overline dotted red;"
+        /// "none | underline | overline | line-through | blink | initial | inherit"
         /// </code>
         /// 
         /// </example>
