@@ -53,7 +53,7 @@ namespace StylerCode.Css
         public const string Ease_In_Out = "ease-in-out";
         public static string Steps(string animationName, int number, string start = "start", string Infinite = "infinite")
         {
-            return $"{animationName} {number}s steps({number}, {start}) {Infinite};";
+            return $"{animationName} {number}s steps({number}, {start}) {Infinite}";
         }
 
         public static string Cubic_Bezier(double x1, double y1, double x2, double y2)
