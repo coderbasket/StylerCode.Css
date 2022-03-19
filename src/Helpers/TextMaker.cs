@@ -20,7 +20,7 @@ namespace StylerCode.Css
             }
             return sb.ToString();
         }
-        public static string GetPropertiesCode(CssProperty property)
+        public static string GetPropertiesCode(CssProperty_ForJson property)
         {
             var title = property.Title;
             var enumName = GetEnumName(property.Title);
@@ -61,19 +61,20 @@ namespace StylerCode.Css
             // Return char and concat substring.  
             return char.ToUpper(s[0]) + s.Substring(1);
         }
+        public class CssProperty_ForJson
+        {
+            public string Title { get; set; }
+            public string Summary { get; set; }
+            public string Url { get; set; }
+            public string Example { get; set; }
+            public List<string> Values { get; set; }
+        }
+        public class CssValue_ForJson
+        {
+            public string Title { get; set; }
+            public List<string> Values { get; set; }
+        }
     }
-   
-    internal class CssProperty
-    {
-        public string Title { get; set; }
-        public string Summary { get; set; }
-        public string Url { get; set; }
-        public string Example { get; set; }
-        public List<string> Values { get; set; }
-    }
-    internal class CssValue
-    {
-        public string Title { get; set; }
-        public List<string> Values { get; set; }
-    }
+    
+
 }
