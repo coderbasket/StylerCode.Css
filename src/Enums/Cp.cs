@@ -4,7 +4,10 @@ using System.Text;
 
 namespace StylerCode.Css
 {
-    public enum CssProperties
+    /// <summary>
+    /// Css properties
+    /// </summary>
+    public enum Cp
     {
         /// <summary>
         /// Specifies the alignment between the lines inside a flexible container when the items do not use all available space.

@@ -11,7 +11,7 @@ namespace StylerCode.Css
         {
 
             StringBuilder sb = new StringBuilder();
-            var names = Enum.GetNames(typeof(CssProperties));
+            var names = Enum.GetNames(typeof(Cp));
             foreach (var name in names)
             {
                 //"+name.ToLower()+"
@@ -51,7 +51,7 @@ namespace StylerCode.Css
             }
             return str;
         }
-        public static string FirstCharToUpper(string s)
+        internal static string FirstCharToUpper(string s)
         {
             // Check for empty string.  
             if (string.IsNullOrEmpty(s))

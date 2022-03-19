@@ -6,15 +6,15 @@ using System.Text.RegularExpressions;
 
 namespace StylerCode.Css
 {
-    public class CssStyler 
+    public class Css 
     {
         
         
-        public CssStyler() 
+        public Css() 
         {
            
         }
-        public CssStyler(CssStyler currentStyles)
+        public Css(Css currentStyles)
         {
             if(currentStyles?._stylesList?.Count > 0)
             {
@@ -33,7 +33,7 @@ namespace StylerCode.Css
         /// </summary>
         /// <param name="key"></param>
         /// <param name="value"></param>
-        public CssStyler AddStyle(string key, string value)
+        public Css Add(string key, string value)
         {
             _stylesList[key] = value;
             this.NotifyChanged();
@@ -42,11 +42,11 @@ namespace StylerCode.Css
         
         
         /// <summary>
-        /// CssProperties
+        /// Add Style
         /// </summary>
         /// <param name="key"></param>
         /// <param name="value"></param>
-        public CssStyler AddStyle(CssProperties key, string value)
+        public Css Add(Cp key, string value)
         {
             var keyString = GetStyleName(key);
             _stylesList[keyString] = value;
@@ -69,7 +69,7 @@ namespace StylerCode.Css
             }
         }
         
-        public void Remove(CssProperties key)
+        public void Remove(Cp key)
         {
             var keyString = GetStyleName(key);
             if (_stylesList.ContainsKey(keyString))
@@ -79,7 +79,7 @@ namespace StylerCode.Css
 
             }
         }
-        public event EventHandler<CssStyler> StyleChanged;
+        public event EventHandler<Css> StyleChanged;
         void NotifyChanged()
         {
             StyleChanged?.Invoke(this, this);
@@ -104,9 +104,9 @@ namespace StylerCode.Css
                 return null;
             return "style=\"" + style + "\"";
         }
-        public CssStyler Clone()
+        public Css Clone()
         {
-            return new CssStyler(this);
+            return new Css(this);
         }
         public string ToValueStyles()
         {
@@ -128,18 +128,18 @@ namespace StylerCode.Css
                 return null;
             return style;
         }
-        public static explicit operator string(CssStyler cssStyler)
+        public static explicit operator string(Css cssStyler)
         {
             return cssStyler.ToString();
         }
-        public static implicit operator CssStyler(string attributeStyles)
+        public static implicit operator Css(string attributeStyles)
         {
             if(string.IsNullOrEmpty(attributeStyles))
                 return null;
             if (!attributeStyles.Contains(";"))
                 return null;
             var splits = attributeStyles.Split(';');
-            CssStyler cssStyler = new CssStyler();
+            Css cssStyler = new Css();
             foreach(var spl in splits)
             {
                 //"background-color: #111;"
@@ -147,7 +147,7 @@ namespace StylerCode.Css
                 var styles = spl.Split(':');
                 if(styles.Length == 2)
                 {
-                    cssStyler.AddStyle(styles[0], styles[1]);
+                    cssStyler.Add(styles[0], styles[1]);
                 }
             }
             return cssStyler;
@@ -188,7 +188,7 @@ namespace StylerCode.Css
         {
             return (key + ": " + value + "; ");
         }
-        public static string ValueStyle(CssProperties key, string value)
+        public static string ValueStyle(Cp key, string value)
         {
             var keyString = GetStyleName(key);
             return (key + ": " + value + "; ");

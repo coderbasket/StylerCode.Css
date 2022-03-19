@@ -4,7 +4,10 @@ using System.Text;
 
 namespace StylerCode.Css
 {
-    public static class Css
+    /// <summary>
+    /// Css values
+    /// </summary>
+    public static class Cv
     {
         /// <summary>
         /// center
