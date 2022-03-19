@@ -153,10 +153,6 @@ namespace StylerCode.Css
             return cssStyler;
         }
         internal Dictionary<string, string> _stylesList { get; } = new Dictionary<string, string>();
-
-
-
-
         #region Static
         // 2 or more than Uppercase will become space: FirstBaseline -> first baseline.
         // Underscore _ will be replaced with - : Align_Content -> align-content.
