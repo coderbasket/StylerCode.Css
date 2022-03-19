@@ -790,6 +790,10 @@ namespace StylerCode.Css
         public const string Vertical_Lr = "vertical-lr";
         public const string Sideways_Rl = "sideways-rl";
         public const string Sideways_Lr = "sideways-lr";
+        public const string _Moz_ = "-moz-";
+        public const string _Ms_ = "-ms-";
+        public const string _O_ = "-o-";
+        public const string _Webkit_ = "-webkit-";
 
 
     }

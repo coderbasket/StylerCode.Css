@@ -39,8 +39,24 @@ namespace StylerCode.Css
             this.NotifyChanged();
             return this;
         }
-        
-        
+        /// <summary>
+        /// "extension" can be added: -moz- | -ms- | -o- | -webkit- | 
+        /// </summary>
+        /// <param name="key"></param>
+        /// <param name="value"></param>
+        /// <param name="extension"></param>
+        /// <returns></returns>
+        public Css Add(string key, string value, string extension = null)
+        {
+            if(!string.IsNullOrEmpty(extension))
+                _stylesList[extension + key] = value;
+            else
+                _stylesList[key] = value;
+            this.NotifyChanged();
+            return this;
+        }
+
+
         /// <summary>
         /// Add Style
         /// </summary>
@@ -53,7 +69,24 @@ namespace StylerCode.Css
             this.NotifyChanged();
             return this;
         }
-
+        /// <summary>
+        /// "extension" can be added: -moz- | -ms- | -o- | -webkit- | 
+        /// </summary>
+        /// <param name="key"></param>
+        /// <param name="value"></param>
+        /// <param name="extension"></param>
+        /// <returns></returns>
+        public Css Add(Cp key, string value, string extension = null)
+        {
+            var keyString = GetStyleName(key);
+           
+            if (!string.IsNullOrEmpty(extension))
+                _stylesList[extension + keyString] = value;
+            else
+                _stylesList[keyString] = value;
+            this.NotifyChanged();
+            return this;
+        }
         public void Clear()
         {
             this._stylesList.Clear();
