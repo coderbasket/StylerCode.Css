@@ -6,15 +6,15 @@ using System.Text.RegularExpressions;
 
 namespace StylerCode.Css
 {
-    public class CssStyler : CssStyleBase
+    public class CssStyler 
     {
         
         
-        public CssStyler() : base()
+        public CssStyler() 
         {
            
         }
-        public CssStyler(CssStyler currentStyles) : base()
+        public CssStyler(CssStyler currentStyles)
         {
             if(currentStyles?._stylesList?.Count > 0)
             {
@@ -54,7 +54,7 @@ namespace StylerCode.Css
             return this;
         }
 
-        public new void Clear()
+        public void Clear()
         {
             this._stylesList.Clear();
             this.NotifyChanged();
@@ -151,7 +151,48 @@ namespace StylerCode.Css
             }
             return cssStyler;
         }
-        
+        internal Dictionary<string, string> _stylesList { get; } = new Dictionary<string, string>();
+
+
+
+
+        #region Static
+        // 2 or more than Uppercase will become space: FirstBaseline -> first baseline.
+        // Underscore _ will be replaced with - : Align_Content -> align-content.
+        internal static string GetStyleName(object enumName)
+        {
+            var str = enumName.ToString();
+            if (str.Contains("_"))
+                str = str.ToString().ToLower().Replace("_", "-");
+            else
+            {
+                var split = Regex.Split(str, @"(?<!^)(?=[A-Z])");
+                if (split.Length == 1)
+                    str = str.ToLower().ToLower();
+                else
+                {
+                    var line = new List<string>();
+                    foreach (var sp in split)
+                    {
+                        line.Add(sp);
+                    }
+                    str = string.Join(" ", line);
+                    str = str.ToLower();
+                }
+
+            }
+            return str;
+        }
+        public static string ValueStyle(string key, string value)
+        {
+            return (key + ": " + value + "; ");
+        }
+        public static string ValueStyle(CssProperties key, string value)
+        {
+            var keyString = GetStyleName(key);
+            return (key + ": " + value + "; ");
+        }
+        #endregion
     }
 
 }

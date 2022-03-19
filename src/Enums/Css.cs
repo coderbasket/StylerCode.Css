@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StylerCode.Css
 {
-    public static class Align_Content
+    public static class Css
     {
         /// <summary>
         /// center
@@ -99,6 +99,8 @@ namespace StylerCode.Css
         /// </summary>
         public const string Unset = "unset";
 
+        public const string Auto = "auto";
 
+      
     }
 }
