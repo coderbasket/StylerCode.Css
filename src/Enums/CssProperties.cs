@@ -665,6 +665,8 @@ namespace StylerCode.Css
         /// <remarks>
         /// <a href="https://www.w3schools.com/cssref/css3_pr_border-radius.asp">Learn more</a>
         /// </remarks>
+      
+        
         Border_Radius,
         /// <summary>
         /// A shorthand property for all the border-right-* properties.

@@ -1,0 +1,1689 @@
+﻿[
+  {
+    "Title": "align-content",
+    "Summary": "Specifies the alignment between the lines inside a flexible container when the items do not use all available space.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_align-content.asp",
+    "Example": "style=\"align-content: center;\"",
+    "Values": [ "stretch ", " center ", " flex-start ", " flex-end ", " space-between ", " space-around ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "align-items",
+    "Summary": "Specifies the alignment for items inside a flexible container.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_align-items.asp",
+    "Example": "style=\"align-items: center;\"",
+    "Values": [ "stretch ", " center ", " flex-start ", " flex-end ", " baseline ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "align-self",
+    "Summary": "Specifies the alignment for selected items inside a flexible container",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_align-self.asp",
+    "Example": "style=\"align-self: center;\"",
+    "Values": [ "auto ", " stretch ", " center ", " flex-start ", " flex-end ", " baseline ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "all",
+    "Summary": "Resets all properties (except unicode-bidi and direction)",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_all.asp",
+    "Example": "style=\"all: initial;\"",
+    "Values": [ "initial ", " inherit ", " unset" ]
+  },
+  {
+    "Title": "animation",
+    "Summary": "A shorthand property for all the animation-* properties",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_animation.asp",
+    "Example": "style=\"animation: mymove 5s infinite;\"",
+    "Values": [ "CSS Syntax => animation: name duration timing-function delay iteration-count direction fill-mode play-state;" ]
+  },
+  {
+    "Title": "animation-delay",
+    "Summary": "Specifies a delay for the start of an animation",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_animation-delay.asp",
+    "Example": "style=\"animation-delay: 2s;\"",
+    "Values": [ "time ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "animation-direction",
+    "Summary": "Specifies whether an animation should be played forwards, backwards or in alternate cycles.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_animation-direction.asp",
+    "Example": "style=\"animation-direction: alternate;\"",
+    "Values": [ "normal ", " reverse ", " alternate ", " alternate-reverse ", " initial", "inherit" ]
+  },
+  {
+    "Title": "animation-duration",
+    "Summary": "Specifies how long an animation should take to complete one cycle.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_animation-duration.asp",
+    "Example": "style=\"animation-duration: 3s;\"",
+    "Values": [ "time ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "animation-fill-mode",
+    "Summary": "Specifies a style for the element when the animation is not playing (before it starts, after it ends, or both).",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_animation-fill-mode.asp",
+    "Example": "style=\"animation-fill-mode: forwards;\"",
+    "Values": [ "none ", " forwards ", " backwards ", " both ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "animation-iteration-count",
+    "Summary": "Specifies the number of times an animation should be played.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_animation-iteration-count.asp",
+    "Example": "style=\"animation-iteration-count: 2;\"",
+    "Values": [ "number ", " infinite ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "animation-name",
+    "Summary": "Specifies a name for the @keyframes animation.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_animation-name.asp",
+    "Example": "style=\"animation-name: mymove;\"",
+    "Values": [ "keyframename ", " none ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "animation-play-state",
+    "Summary": "Specifies whether the animation is running or paused.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_animation-play-state.asp",
+    "Example": "style=\"animation-play-state: paused;\"",
+    "Values": [ "paused ", " running ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "animation-timing-function",
+    "Summary": "Specifies the speed curve of an animation.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_animation-timing-function.asp",
+    "Example": "style=\"animation-timing-function: linear;\"",
+    "Values": [ "linear ", " ease ", " ease-in ", " ease-out ", " ease-in-out ", " step-start ", " step-end ", " steps(int,start", "end) ", " cubic-bezier(n,n,n,n) ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "backface-visibility",
+    "Summary": "Defines whether or not the back face of an element should be visible when facing the user.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_backface-visibility.asp",
+    "Example": "style=\"backface-visibility: hidden;\" | style=\"-webkit-backface-visibility: hidden; /* Safari */\"",
+    "Values": [ "visible ", " hidden ", " initial ", " inherit;" ]
+  },
+  {
+    "Title": "background",
+    "Summary": "A shorthand property for all the background-* properties",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_background.asp",
+    "Example": "style=\"background: lightblue url(\"img_tree.gif\") no-repeat fixed center;\"",
+    "Values": [ "bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial ", " inherit" ]
+  },
+  {
+    "Title": "background-attachment",
+    "Summary": "Sets whether a background image scrolls with the rest of the page, or is fixed.",
+    "Url": "https://www.w3schools.com/cssref/pr_background-attachment.asp",
+    "Example": "style=\"background-attachment: fixed;\"",
+    "Values": [ "scroll ", " fixed ", " local ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "background-blend-mode",
+    "Summary": "Specifies the blending mode of each background layer (color/image).",
+    "Url": "https://www.w3schools.com/cssref/pr_background-blend-mode.asp",
+    "Example": "style=\"background-blend-mode: lighten;\"",
+    "Values": [ "normal ", " multiply ", " screen ", " overlay ", " darken ", " lighten ", " color-dodge ", " saturation ", " color ", " luminosity" ]
+  },
+  {
+    "Title": "background-clip",
+    "Summary": "Defines how far the background (color or image) should extend within an element.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_background-clip.asp",
+    "Example": "style=\"background-clip: padding-box;\"",
+    "Values": [ "border-box ", " padding-box ", " content-box ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "background-color",
+    "Summary": "Specifies the background color of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_background-color.asp",
+    "Example": "style=\"background-color: coral;\"",
+    "Values": [ "color ", " transparent ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "background-image",
+    "Summary": "Specifies one or more background images for an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_background-image.asp",
+    "Example": "style=\"background-image: url(\"paper.gif\");\"",
+    "Values": [ "url ", " none ", " initial ", " inherit;" ]
+  },
+  {
+    "Title": "background-origin",
+    "Summary": "Specifies the origin position of a background image.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_background-origin.asp",
+    "Example": "style=\"background-origin: content-box;\"",
+    "Values": [ "padding-box ", " border-box ", " content-box ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "background-position",
+    "Summary": "Specifies the origin position of a background image.",
+    "Url": "https://www.w3schools.com/cssref/pr_background-position.asp",
+    "Example": "style=\"background-position: center;\"",
+    "Values": [ "left top ", " left center ", " left bottom ", " right top ", " right center  ", " right bottom ", " center top ", " center center ", " center bottom" ]
+  },
+  {
+    "Title": "background-repeat",
+    "Summary": "Sets if/how a background image will be repeated.",
+    "Url": "https://www.w3schools.com/cssref/pr_background-repeat.asp",
+    "Example": "style=\"background-repeat: repeat-y;\"",
+    "Values": [ "repeat ", " repeat-x ", " repeat-y ", " no-repeat ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "background-size",
+    "Summary": "Specifies the size of the background images.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_background-size.asp",
+    "Example": "style=\"background-size: auto;\"",
+    "Values": [ "auto ", " length ", " cover ", " contain ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border",
+    "Summary": "SA shorthand property for border-width, border-style and border-color.",
+    "Url": "https://www.w3schools.com/cssref/pr_border.asp",
+    "Example": "style=\"border: 5px solid red;\" | style=\"border: 4px dotted blue;\" | style=\"border: double;\"",
+    "Values": [ "border-width border-style border-color ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-bottom",
+    "Summary": "A shorthand property for border-bottom-width, border-bottom-style and border-bottom-color.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-bottom.asp",
+    "Example": "style=\"border-bottom: 5px solid red;\" | style=\"border-bottom: 4px dotted blue;\" | style=\"border-bottom: double;\"",
+    "Values": [ "border-width border-style border-color ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-bottom-color",
+    "Summary": "Sets the color of the bottom border.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-bottom_color.asp",
+    "Example": "style=\"border-bottom-color: coral;\"",
+    "Values": [ "color ", " transparent ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-bottom-left-radius",
+    "Summary": "Defines the radius of the border of the bottom-left corner.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp",
+    "Example": "style=\"border-bottom-left-radius: 25px;\" | style=\"border-bottom-left-radius: 50px 20px;\"",
+    "Values": [ "length ", " % [length ", " %] ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-bottom-right-radius",
+    "Summary": "Defines the radius of the border of the bottom-right corner.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp",
+    "Example": "style=\"border-bottom-right-radius: 25px;\" | style=\"border-bottom-right-radius: 50px 20px;\"",
+    "Values": [ "length ", " % [length ", " %] ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-bottom-style",
+    "Summary": "Sets the style of the bottom border.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-bottom_style.asp",
+    "Example": "style=\"border-bottom-style: dotted;\"",
+    "Values": [ "none ", " hidden ", " dotted ", " dashed ", " solid ", " double ", " groove ", " ridge ", " inset ", " outset ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-bottom-width",
+    "Summary": "Sets the width of the bottom border.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-bottom_width.asp",
+    "Example": "style=\"border-bottom-width: thin;\"",
+    "Values": [ "medium ", " thin ", " thick ", " length ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-collapse",
+    "Summary": "Sets whether table borders should collapse into a single border or be separated.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-collapse.asp",
+    "Example": "style=\"border-collapse: separate;\" | style=\"border-collapse: collapse;\"",
+    "Values": [ "separate ", " collapse ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-color",
+    "Summary": "Sets the color of the four borders.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-color.asp",
+    "Example": "style=\"border-color: coral;\"",
+    "Values": [ "color ", " transparent ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-image",
+    "Summary": "A shorthand property for all the border-image-* properties.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_border-image.asp",
+    "Example": "style=\"border-image: url(border.png) 30 round;\"",
+    "Values": [ "source slice width outset repeat ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-image-outset",
+    "Summary": "Specifies the amount by which the border image area extends beyond the border box.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_border-image-outset.asp",
+    "Example": "style=\"border-image-outset: 10px;\"",
+    "Values": [ "length ", " number ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-image-repeat",
+    "Summary": "Specifies whether the border image should be repeated, rounded or stretched.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_border-image-repeat.asp",
+    "Example": "style=\"border-image-repeat: repeat;\"",
+    "Values": [ "stretch ", " repeat ", " round ", " space ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-image-slice",
+    "Summary": "Specifies how to slice the border image.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_border-image-slice.asp",
+    "Example": "style=\"border-image-slice: 30%;\"",
+    "Values": [ "number ", " % ", " fill ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-image-source",
+    "Summary": "Specifies the path to the image to be used as a border.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_border-image-source.asp",
+    "Example": "style=\"border-image-source: url(border.png);\"",
+    "Values": [ "snone ", " image ", " initial ", " inherit;" ]
+  },
+  {
+    "Title": "border-image-width",
+    "Summary": "Specifies the width of the border image.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_border-image-width.asp",
+    "Example": "style=\"border-image-width: 10px;\"",
+    "Values": [ "number ", " % ", " auto ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-left",
+    "Summary": "A shorthand property for all the border-left-* properties.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-left.asp",
+    "Example": "style=\"border-left: 5px solid red;\" | style=\"border-left: 4px dotted blue;\" | style=\"border-left: double;\"",
+    "Values": [ "border-width border-style border-color ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-left-color",
+    "Summary": "Sets the color of the left border.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-left_color.asp",
+    "Example": "style=\"border-left-color: coral;\"",
+    "Values": [ "color ", " transparent ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-left-style",
+    "Summary": "Sets the style of the left border.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-left_style.asp",
+    "Example": "style=\"border-left-style: dotted;\"",
+    "Values": [ "none ", " hidden ", " dotted ", " dashed ", " solid ", " double ", " groove ", " ridge ", " inset ", " outset ", " initial ", " inherit;" ]
+  },
+  {
+    "Title": "border-left-width",
+    "Summary": "Sets the width of the left border.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-left_width.asp",
+    "Example": "style=\"border-left-width: thin;\"",
+    "Values": [ "medium ", " thin ", " thick ", " length ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-radius",
+    "Summary": "A shorthand property for the four border-*-radius properties.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_border-radius.asp",
+    "Example": "style=\"border-radius: 25px;\" | style=\"border-radius: 50px 20px;\"",
+    "Values": [ "1-4 length ", " % / 1-4 length ", " % ", " initial ", " inherit" ]
+  },
+  {
+    "Title": "border-right",
+    "Summary": "A shorthand property for all the border-right-* properties.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-right.asp",
+    "Example": "style=\"border-right: \"",
+    "Values": null
+  },
+  {
+    "Title": "border-right-color",
+    "Summary": "Sets the color of the right border.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-right_color.asp",
+    "Example": "style=\"border-right-color: \"",
+    "Values": null
+  },
+  {
+    "Title": "border-right-style",
+    "Summary": "Sets the style of the right border.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-right_style.asp",
+    "Example": "style=\"border-right-style: \"",
+    "Values": null
+  },
+  {
+    "Title": "border-right-width",
+    "Summary": "Sets the width of the right border.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-right_width.asp",
+    "Example": "style=\"border-right-width: \"",
+    "Values": null
+  },
+  {
+    "Title": "border-spacing",
+    "Summary": "Sets the distance between the borders of adjacent cells.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-spacing.asp",
+    "Example": "style=\"border-spacing: \"",
+    "Values": null
+  },
+  {
+    "Title": "border-style",
+    "Summary": "Sets the style of the four borders.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-style.asp",
+    "Example": "style=\"border-style: \"",
+    "Values": null
+  },
+  {
+    "Title": "border-top",
+    "Summary": "A shorthand property for border-top-width, border-top-style and                  border-top-color.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-top.asp",
+    "Example": "style=\"border-top: \"",
+    "Values": null
+  },
+  {
+    "Title": "border-top-color",
+    "Summary": "Sets the color of the top border.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-top_color.asp",
+    "Example": "style=\"border-top-color: \"",
+    "Values": null
+  },
+  {
+    "Title": "border-top-left-radius",
+    "Summary": "Defines the radius of the border of the top-left corner.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp",
+    "Example": "style=\"border-top-left-radius: \"",
+    "Values": null
+  },
+  {
+    "Title": "border-top-right-radius",
+    "Summary": "Defines the radius of the border of the top-right corner.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_border-top-right-radius.asp",
+    "Example": "style=\"border-top-right-radius: \"",
+    "Values": null
+  },
+  {
+    "Title": "border-top-style",
+    "Summary": "Sets the style of the top border.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-top_style.asp",
+    "Example": "style=\"border-top-style: \"",
+    "Values": null
+  },
+  {
+    "Title": "border-top-width",
+    "Summary": "Sets the width of the top border.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-top_width.asp",
+    "Example": "style=\"border-top-width: \"",
+    "Values": null
+  },
+  {
+    "Title": "border-width",
+    "Summary": "Sets the width of the four borders.",
+    "Url": "https://www.w3schools.com/cssref/pr_border-width.asp",
+    "Example": "style=\"border-width: \"",
+    "Values": null
+  },
+  {
+    "Title": "bottom",
+    "Summary": "Sets the elements position, from the bottom of its parent element.",
+    "Url": "https://www.w3schools.com/cssref/pr_pos_bottom.asp",
+    "Example": "style=\"bottom: \"",
+    "Values": null
+  },
+  {
+    "Title": "box-decoration-break",
+    "Summary": "Sets the behavior of the background and border of an element at page-break, or, for in-line elements, at                  line-break..",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_box-decoration-break.asp",
+    "Example": "style=\"box-decoration-break: \"",
+    "Values": null
+  },
+  {
+    "Title": "box-shadow",
+    "Summary": "Attaches one or more shadows to an element.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_box-shadow.asp",
+    "Example": "style=\"box-shadow: \"",
+    "Values": null
+  },
+  {
+    "Title": "box-sizing",
+    "Summary": "Defines how the width and height of an element are calculated: should                  they include padding and borders, or not.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_box-sizing.asp",
+    "Example": "style=\"box-sizing: \"",
+    "Values": null
+  },
+  {
+    "Title": "break-after",
+    "Summary": "Specifies whether or not a page-, column-, or region-break should occur                  after the specified element.",
+    "Url": "https://www.w3schools.com/cssref/pr_break-after.asp",
+    "Example": "style=\"break-after: \"",
+    "Values": null
+  },
+  {
+    "Title": "break-before",
+    "Summary": "Specifies whether or not a page-, column-, or region-break should occur                  before the specified element.",
+    "Url": "https://www.w3schools.com/cssref/pr_break-before.asp",
+    "Example": "style=\"break-before: \"",
+    "Values": null
+  },
+  {
+    "Title": "break-inside",
+    "Summary": "Specifies whether or not a page-, column-, or region-break should occur                  inside the specified element.",
+    "Url": "https://www.w3schools.com/cssref/pr_break-inside.asp",
+    "Example": "style=\"break-inside: \"",
+    "Values": null
+  },
+  {
+    "Title": "caption-side",
+    "Summary": "Specifies the placement of a table caption.",
+    "Url": "https://www.w3schools.com/cssref/pr_tab_caption-side.asp",
+    "Example": "style=\"caption-side: \"",
+    "Values": null
+  },
+  {
+    "Title": "caret-color",
+    "Summary": "Specifies the color of the cursor (caret) in inputs, textareas, or any                  element that is editable.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_caret-color.asp",
+    "Example": "style=\"caret-color: \"",
+    "Values": null
+  },
+  {
+    "Title": "@charset",
+    "Summary": "Specifies the character encoding used in the style sheet.",
+    "Url": "https://www.w3schools.com/cssref/pr_charset_rule.asp",
+    "Example": "style=\"@charset: \"",
+    "Values": null
+  },
+  {
+    "Title": "clear",
+    "Summary": "Specifies what should happen with the element that is next to a floating                  element.",
+    "Url": "https://www.w3schools.com/cssref/pr_class_clear.asp",
+    "Example": "style=\"clear: \"",
+    "Values": null
+  },
+  {
+    "Title": "clip",
+    "Summary": "Clips an absolutely positioned element.",
+    "Url": "https://www.w3schools.com/cssref/pr_pos_clip.asp",
+    "Example": "style=\"clip: \"",
+    "Values": null
+  },
+  {
+    "Title": "color",
+    "Summary": "Sets the color of text.",
+    "Url": "https://www.w3schools.com/cssref/pr_text_color.asp",
+    "Example": "style=\"color: \"",
+    "Values": null
+  },
+  {
+    "Title": "column-count",
+    "Summary": "Specifies the number of columns an element should be divided into.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_column-count.asp",
+    "Example": "style=\"column-count: \"",
+    "Values": null
+  },
+  {
+    "Title": "column-fill",
+    "Summary": "Specifies how to fill columns, balanced or not.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_column-fill.asp",
+    "Example": "style=\"column-fill: \"",
+    "Values": null
+  },
+  {
+    "Title": "column-gap",
+    "Summary": "Specifies the gap between the columns.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_column-gap.asp",
+    "Example": "style=\"column-gap: \"",
+    "Values": null
+  },
+  {
+    "Title": "column-rule",
+    "Summary": "A shorthand property for all the column-rule-* properties.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_column-rule.asp",
+    "Example": "style=\"column-rule: \"",
+    "Values": null
+  },
+  {
+    "Title": "column-rule-color",
+    "Summary": "Specifies the color of the rule between columns.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_column-rule-color.asp",
+    "Example": "style=\"column-rule-color: \"",
+    "Values": null
+  },
+  {
+    "Title": "column-rule-style",
+    "Summary": "Specifies the style of the rule between columns.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_column-rule-style.asp",
+    "Example": "style=\"column-rule-style: \"",
+    "Values": null
+  },
+  {
+    "Title": "column-rule-width",
+    "Summary": "Specifies the width of the rule between columns.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_column-rule-width.asp",
+    "Example": "style=\"column-rule-width: \"",
+    "Values": null
+  },
+  {
+    "Title": "column-span",
+    "Summary": "Specifies how many columns an element should span across.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_column-span.asp",
+    "Example": "style=\"column-span: \"",
+    "Values": null
+  },
+  {
+    "Title": "column-width",
+    "Summary": "Specifies the column width.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_column-width.asp",
+    "Example": "style=\"column-width: \"",
+    "Values": null
+  },
+  {
+    "Title": "columns",
+    "Summary": "A shorthand property for column-width and column-count.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_columns.asp",
+    "Example": "style=\"columns: \"",
+    "Values": null
+  },
+  {
+    "Title": "content",
+    "Summary": "Used with the :before and :after pseudo-elements, to insert generated content.",
+    "Url": "https://www.w3schools.com/cssref/pr_gen_content.asp",
+    "Example": "style=\"content: \"",
+    "Values": null
+  },
+  {
+    "Title": "counter-increment",
+    "Summary": "Increases or decreases the value of one or more CSS counters.",
+    "Url": "https://www.w3schools.com/cssref/pr_gen_counter-increment.asp",
+    "Example": "style=\"counter-increment: \"",
+    "Values": null
+  },
+  {
+    "Title": "counter-reset",
+    "Summary": "Creates or resets one or more CSS counters.",
+    "Url": "https://www.w3schools.com/cssref/pr_gen_counter-reset.asp",
+    "Example": "style=\"counter-reset: \"",
+    "Values": null
+  },
+  {
+    "Title": "cursor",
+    "Summary": "Specifies the mouse cursor to be displayed when pointing over an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_class_cursor.asp",
+    "Example": "style=\"cursor: \"",
+    "Values": null
+  },
+  {
+    "Title": "direction",
+    "Summary": "Specifies the text direction/writing direction.",
+    "Url": "https://www.w3schools.com/cssref/pr_text_direction.asp",
+    "Example": "style=\"direction: \"",
+    "Values": null
+  },
+  {
+    "Title": "display",
+    "Summary": "Specifies how a certain HTML element should be displayed.",
+    "Url": "https://www.w3schools.com/cssref/pr_class_display.asp",
+    "Example": "style=\"display: \"",
+    "Values": null
+  },
+  {
+    "Title": "empty-cells",
+    "Summary": "Specifies whether or not to display borders and background on empty cells in a table.",
+    "Url": "https://www.w3schools.com/cssref/pr_tab_empty-cells.asp",
+    "Example": "style=\"empty-cells: \"",
+    "Values": null
+  },
+  {
+    "Title": "filter",
+    "Summary": "Defines effects (e.g. blurring or color shifting) on an element before the element is                  displayed.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_filter.asp",
+    "Example": "style=\"filter: \"",
+    "Values": null
+  },
+  {
+    "Title": "flex",
+    "Summary": "A shorthand property for the flex-grow, flex-shrink, and the                  flex-basis                  properties.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_flex.asp",
+    "Example": "style=\"flex: \"",
+    "Values": null
+  },
+  {
+    "Title": "flex-basis",
+    "Summary": "Specifies the initial length of a flexible item.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_flex-basis.asp",
+    "Example": "style=\"flex-basis: \"",
+    "Values": null
+  },
+  {
+    "Title": "flex-direction",
+    "Summary": "Specifies the direction of the flexible items.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_flex-direction.asp",
+    "Example": "style=\"flex-direction: \"",
+    "Values": null
+  },
+  {
+    "Title": "flex-flow",
+    "Summary": "A shorthand property for the flex-direction and the flex-wrap properties.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_flex-flow.asp",
+    "Example": "style=\"flex-flow: \"",
+    "Values": null
+  },
+  {
+    "Title": "flex-grow",
+    "Summary": "Specifies how much the item will grow relative to the rest.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_flex-grow.asp",
+    "Example": "style=\"flex-grow: \"",
+    "Values": null
+  },
+  {
+    "Title": "flex-shrink",
+    "Summary": "Specifies how the item will shrink relative to the rest.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_flex-shrink.asp",
+    "Example": "style=\"flex-shrink: \"",
+    "Values": null
+  },
+  {
+    "Title": "flex-wrap",
+    "Summary": "Specifies whether the flexible items should wrap or not.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp",
+    "Example": "style=\"flex-wrap: \"",
+    "Values": null
+  },
+  {
+    "Title": "float",
+    "Summary": "Specifies whether an element should float to the left, right, or not at                  all.",
+    "Url": "https://www.w3schools.com/cssref/pr_class_float.asp",
+    "Example": "style=\"float: \"",
+    "Values": null
+  },
+  {
+    "Title": "font",
+    "Summary": "A shorthand property for the font-style, font-variant, font-weight,                      font-size/line-height, and the font-family properties.",
+    "Url": "https://www.w3schools.com/cssref/pr_font_font.asp",
+    "Example": "style=\"font: \"",
+    "Values": null
+  },
+  {
+    "Title": "@font-face",
+    "Summary": "A rule that allows websites to download and use fonts other than the \"web-safe\" fonts.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp",
+    "Example": "style=\"@font-face: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-family",
+    "Summary": "Specifies the font family for text.",
+    "Url": "https://www.w3schools.com/cssref/pr_font_font-family.asp",
+    "Example": "style=\"font-family: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-feature-settings",
+    "Summary": "Allows control over advanced typographic features in OpenType fonts.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_font-feature-settings.asp",
+    "Example": "style=\"font-feature-settings: \"",
+    "Values": null
+  },
+  {
+    "Title": "@font-feature-values",
+    "Summary": "Allows authors to use a common name in font-variant-alternate for feature activated                  differently in OpenType.",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"@font-feature-values: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-kerning",
+    "Summary": "Controls the usage of the kerning information (how letters are spaced).",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_font-kerning.asp",
+    "Example": "style=\"font-kerning: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-language-override",
+    "Summary": "Controls the usage of language-specific glyphs in a typeface.",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"font-language-override: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-size",
+    "Summary": "Specifies the font size of text.",
+    "Url": "https://www.w3schools.com/cssref/pr_font_font-size.asp",
+    "Example": "style=\"font-size: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-size-adjust",
+    "Summary": "Preserves the readability of text when font fallback occurs.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_font-size-adjust.asp",
+    "Example": "style=\"font-size-adjust: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-stretch",
+    "Summary": "Selects a normal, condensed, or expanded face from a font family.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_font-stretch.asp",
+    "Example": "style=\"font-stretch: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-style",
+    "Summary": "Specifies the font style for text.",
+    "Url": "https://www.w3schools.com/cssref/pr_font_font-style.asp",
+    "Example": "style=\"font-style: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-synthesis",
+    "Summary": "Controls which missing typefaces (bold or italic) may be synthesized by the browser.",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"font-synthesis: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-variant",
+    "Summary": "Specifies whether or not a text should be displayed in a small-caps font.",
+    "Url": "https://www.w3schools.com/cssref/pr_font_font-variant.asp",
+    "Example": "style=\"font-variant: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-variant-alternates",
+    "Summary": "Controls the usage of alternate glyphs associated to alternative names defined in                  @font-feature-values.",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"font-variant-alternates: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-variant-caps",
+    "Summary": "Controls the usage of alternate glyphs for capital letters.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_font-variant-caps.asp",
+    "Example": "style=\"font-variant-caps: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-variant-east-asian",
+    "Summary": "Controls the usage of alternate glyphs for East Asian scripts (e.g Japanese and Chinese).",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"font-variant-east-asian: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-variant-ligatures",
+    "Summary": "Controls which ligatures and contextual forms are used in textual content of the elements it                  applies to.",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"font-variant-ligatures: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-variant-numeric",
+    "Summary": "Controls the usage of alternate glyphs for numbers, fractions, and ordinal markers.",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"font-variant-numeric: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-variant-position",
+    "Summary": "Controls the usage of alternate glyphs of smaller size positioned as superscript or                  subscript regarding the baseline of the font.",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"font-variant-position: \"",
+    "Values": null
+  },
+  {
+    "Title": "font-weight",
+    "Summary": "Specifies the weight of a font.",
+    "Url": "https://www.w3schools.com/cssref/pr_font_weight.asp",
+    "Example": "style=\"font-weight: \"",
+    "Values": null
+  },
+  {
+    "Title": "gap",
+    "Summary": "A shorthand property for the row-gap and the column-gap properties.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_gap.asp",
+    "Example": "style=\"gap: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid",
+    "Summary": "A shorthand property for the grid-template-rows,                      grid-template-columns, grid-template-areas, grid-auto-rows,                      grid-auto-columns, and the grid-auto-flow properties.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid.asp",
+    "Example": "style=\"grid: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-area",
+    "Summary": "Either specifies a name for the grid item, or this property is a shorthand property for the                  grid-row-start, grid-column-start, grid-row-end, and                  grid-column-end properties.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-area.asp",
+    "Example": "style=\"grid-area: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-auto-columns",
+    "Summary": "Specifies a default column size.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-auto-columns.asp",
+    "Example": "style=\"grid-auto-columns: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-auto-flow",
+    "Summary": "Specifies how auto-placed items are inserted in the grid.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-auto-flow.asp",
+    "Example": "style=\"grid-auto-flow: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-auto-rows",
+    "Summary": "Specifies a default row size.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-auto-rows.asp",
+    "Example": "style=\"grid-auto-rows: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-column",
+    "Summary": "A shorthand property for the grid-column-start and the grid-column-end                  properties.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-column.asp",
+    "Example": "style=\"grid-column: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-column-end",
+    "Summary": "Specifies where to end the grid item.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-column-end.asp",
+    "Example": "style=\"grid-column-end: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-column-gap",
+    "Summary": "Specifies the size of the gap between columns.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-column-gap.asp",
+    "Example": "style=\"grid-column-gap: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-column-start",
+    "Summary": "Specifies where to start the grid item.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-column-start.asp",
+    "Example": "style=\"grid-column-start: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-gap",
+    "Summary": "A shorthand property for the grid-row-gap and grid-column-gap properties.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-gap.asp",
+    "Example": "style=\"grid-gap: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-row",
+    "Summary": "A shorthand property for the grid-row-start and the grid-row-end                  properties.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-row.asp",
+    "Example": "style=\"grid-row: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-row-end",
+    "Summary": "Specifies where to end the grid item.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-row-end.asp",
+    "Example": "style=\"grid-row-end: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-row-gap",
+    "Summary": "Specifies the size of the gap between rows.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-row-gap.asp",
+    "Example": "style=\"grid-row-gap: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-row-start",
+    "Summary": "Specifies where to start the grid item.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-row-start.asp",
+    "Example": "style=\"grid-row-start: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-template",
+    "Summary": "A shorthand property for the grid-template-rows, grid-template-columns                  and grid-areas properties.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-template.asp",
+    "Example": "style=\"grid-template: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-template-areas",
+    "Summary": "Specifies how to display columns and rows, using named grid items.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-template-areas.asp",
+    "Example": "style=\"grid-template-areas: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-template-columns",
+    "Summary": "Specifies the size of the columns, and how many columns in a grid layout.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-template-columns.asp",
+    "Example": "style=\"grid-template-columns: \"",
+    "Values": null
+  },
+  {
+    "Title": "grid-template-rows",
+    "Summary": "Specifies the size of the rows in a grid layout.",
+    "Url": "https://www.w3schools.com/cssref/pr_grid-template-rows.asp",
+    "Example": "style=\"grid-template-rows: \"",
+    "Values": null
+  },
+  {
+    "Title": "hanging-punctuation",
+    "Summary": "Specifies whether a punctuation character may be placed outside the line box.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_hanging-punctuation.asp",
+    "Example": "style=\"hanging-punctuation: \"",
+    "Values": null
+  },
+  {
+    "Title": "height",
+    "Summary": "Sets the height of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_dim_height.asp",
+    "Example": "style=\"height: \"",
+    "Values": null
+  },
+  {
+    "Title": "hyphens",
+    "Summary": "Sets how to split words to improve the layout of paragraphs.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_hyphens.asp",
+    "Example": "style=\"hyphens: \"",
+    "Values": null
+  },
+  {
+    "Title": "image-rendering",
+    "Summary": "Specifies the type of algorithm to use for image scaling.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_image-rendering.asp",
+    "Example": "style=\"image-rendering: \"",
+    "Values": null
+  },
+  {
+    "Title": "@import",
+    "Summary": "Allows you to import a style sheet into another style sheet.",
+    "Url": "https://www.w3schools.com/cssref/pr_import_rule.asp",
+    "Example": "style=\"@import: \"",
+    "Values": null
+  },
+  {
+    "Title": "isolation",
+    "Summary": "Defines whether an element must create a new stacking content.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_isolation.asp",
+    "Example": "style=\"isolation: \"",
+    "Values": null
+  },
+  {
+    "Title": "justify-content",
+    "Summary": "Specifies the alignment between the items inside a flexible container when the items do not                  use all available space.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_justify-content.asp",
+    "Example": "style=\"justify-content: \"",
+    "Values": null
+  },
+  {
+    "Title": "@keyframes",
+    "Summary": "Specifies the animation code.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp",
+    "Example": "style=\"@keyframes: \"",
+    "Values": null
+  },
+  {
+    "Title": "left",
+    "Summary": "Specifies the left position of a positioned element.",
+    "Url": "https://www.w3schools.com/cssref/pr_pos_left.asp",
+    "Example": "style=\"left: \"",
+    "Values": null
+  },
+  {
+    "Title": "letter-spacing",
+    "Summary": "Increases or decreases the space between characters in a text.",
+    "Url": "https://www.w3schools.com/cssref/pr_text_letter-spacing.asp",
+    "Example": "style=\"letter-spacing: \"",
+    "Values": null
+  },
+  {
+    "Title": "line-break",
+    "Summary": "Specifies how/if to break lines.",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"line-break: \"",
+    "Values": null
+  },
+  {
+    "Title": "line-height",
+    "Summary": "Sets the line height.",
+    "Url": "https://www.w3schools.com/cssref/pr_dim_line-height.asp",
+    "Example": "style=\"line-height: \"",
+    "Values": null
+  },
+  {
+    "Title": "list-style",
+    "Summary": "Sets all the properties for a list in one declaration.",
+    "Url": "https://www.w3schools.com/cssref/pr_list-style.asp",
+    "Example": "style=\"list-style: \"",
+    "Values": null
+  },
+  {
+    "Title": "list-style-image",
+    "Summary": "Specifies an image as the list-item marker.",
+    "Url": "https://www.w3schools.com/cssref/pr_list-style-image.asp",
+    "Example": "style=\"list-style-image: \"",
+    "Values": null
+  },
+  {
+    "Title": "list-style-position",
+    "Summary": "Specifies the position of the list-item markers (bullet points).",
+    "Url": "https://www.w3schools.com/cssref/pr_list-style-position.asp",
+    "Example": "style=\"list-style-position: \"",
+    "Values": null
+  },
+  {
+    "Title": "list-style-type",
+    "Summary": "Specifies the type of list-item marker.",
+    "Url": "https://www.w3schools.com/cssref/pr_list-style-type.asp",
+    "Example": "style=\"list-style-type: \"",
+    "Values": null
+  },
+  {
+    "Title": "margin",
+    "Summary": "Sets all the margin properties in one declaration.",
+    "Url": "https://www.w3schools.com/cssref/pr_margin.asp",
+    "Example": "style=\"margin: \"",
+    "Values": null
+  },
+  {
+    "Title": "margin-bottom",
+    "Summary": "Sets the bottom margin of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_margin-bottom.asp",
+    "Example": "style=\"margin-bottom: \"",
+    "Values": null
+  },
+  {
+    "Title": "margin-left",
+    "Summary": "Sets the left margin of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_margin-left.asp",
+    "Example": "style=\"margin-left: \"",
+    "Values": null
+  },
+  {
+    "Title": "margin-right",
+    "Summary": "Sets the right margin of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_margin-right.asp",
+    "Example": "style=\"margin-right: \"",
+    "Values": null
+  },
+  {
+    "Title": "margin-top",
+    "Summary": "Sets the top margin of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_margin-top.asp",
+    "Example": "style=\"margin-top: \"",
+    "Values": null
+  },
+  {
+    "Title": "mask",
+    "Summary": "Hides parts of an element by masking or clipping an image at specific places.",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"mask: \"",
+    "Values": null
+  },
+  {
+    "Title": "mask-clip",
+    "Summary": "Specifies the mask area.",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"mask-clip: \"",
+    "Values": null
+  },
+  {
+    "Title": "mask-composite",
+    "Summary": "Represents a compositing operation used on the current mask layer with                  the mask layers below it.",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"mask-composite: \"",
+    "Values": null
+  },
+  {
+    "Title": "mask-image",
+    "Summary": "Specifies an image to be used as a mask layer for an element.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_mask-image.asp",
+    "Example": "style=\"mask-image: \"",
+    "Values": null
+  },
+  {
+    "Title": "mask-mode",
+    "Summary": "Specifies whether the mask layer image is treated as a luminance mask or                  as an alpha mask.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_mask-mode.asp",
+    "Example": "style=\"mask-mode: \"",
+    "Values": null
+  },
+  {
+    "Title": "mask-origin",
+    "Summary": "Specifies the origin position (the mask                  position area) of a mask layer image.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_mask-origin.asp",
+    "Example": "style=\"mask-origin: \"",
+    "Values": null
+  },
+  {
+    "Title": "mask-position",
+    "Summary": "Sets the starting position of a mask layer image (relative to the                  mask position area).",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_mask-position.asp",
+    "Example": "style=\"mask-position: \"",
+    "Values": null
+  },
+  {
+    "Title": "mask-repeat",
+    "Summary": "Specifies how the mask layer image is repeated.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_mask-repeat.asp",
+    "Example": "style=\"mask-repeat: \"",
+    "Values": null
+  },
+  {
+    "Title": "mask-size",
+    "Summary": "Specifies the size of a mask layer image.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_mask-size.asp",
+    "Example": "style=\"mask-size: \"",
+    "Values": null
+  },
+  {
+    "Title": "mask-type",
+    "Summary": "Specifies whether an SVG &lt;mask&gt; element is treated as a luminance                  mask or as an alpha mask.",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"mask-type: \"",
+    "Values": null
+  },
+  {
+    "Title": "max-height",
+    "Summary": "Sets the maximum height of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_dim_max-height.asp",
+    "Example": "style=\"max-height: \"",
+    "Values": null
+  },
+  {
+    "Title": "max-width",
+    "Summary": "Sets the maximum width of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_dim_max-width.asp",
+    "Example": "style=\"max-width: \"",
+    "Values": null
+  },
+  {
+    "Title": "@media",
+    "Summary": "Sets the style rules for different media types/devices/sizes.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_mediaquery.asp",
+    "Example": "style=\"@media: \"",
+    "Values": null
+  },
+  {
+    "Title": "min-height",
+    "Summary": "Sets the minimum height of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_dim_min-height.asp",
+    "Example": "style=\"min-height: \"",
+    "Values": null
+  },
+  {
+    "Title": "min-width",
+    "Summary": "Sets the minimum width of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_dim_min-width.asp",
+    "Example": "style=\"min-width: \"",
+    "Values": null
+  },
+  {
+    "Title": "mix-blend-mode",
+    "Summary": "Specifies how an element's content should blend with its direct parent background.",
+    "Url": "https://www.w3schools.com/cssref/pr_mix-blend-mode.asp",
+    "Example": "style=\"mix-blend-mode: \"",
+    "Values": null
+  },
+  {
+    "Title": "object-fit",
+    "Summary": "Specifies how the contents of a replaced element should be fitted to the box established by                  its used height and width.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_object-fit.asp",
+    "Example": "style=\"object-fit: \"",
+    "Values": null
+  },
+  {
+    "Title": "object-position",
+    "Summary": "Specifies the alignment of the replaced element inside its box.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_object-position.asp",
+    "Example": "style=\"object-position: \"",
+    "Values": null
+  },
+  {
+    "Title": "opacity",
+    "Summary": "Sets the opacity level for an element.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_opacity.asp",
+    "Example": "style=\"opacity: \"",
+    "Values": null
+  },
+  {
+    "Title": "order",
+    "Summary": "Sets the order of the flexible item, relative to the rest.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_order.asp",
+    "Example": "style=\"order: \"",
+    "Values": null
+  },
+  {
+    "Title": "orphans",
+    "Summary": "Sets the minimum number of lines that must be left at the bottom of a                  page or column.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_orphans.asp",
+    "Example": "style=\"orphans: \"",
+    "Values": null
+  },
+  {
+    "Title": "outline",
+    "Summary": "A shorthand property for the outline-width, outline-style, and                  the outline-color properties.",
+    "Url": "https://www.w3schools.com/cssref/pr_outline.asp",
+    "Example": "style=\"outline: \"",
+    "Values": null
+  },
+  {
+    "Title": "outline-color",
+    "Summary": "Sets the color of an outline.",
+    "Url": "https://www.w3schools.com/cssref/pr_outline-color.asp",
+    "Example": "style=\"outline-color: \"",
+    "Values": null
+  },
+  {
+    "Title": "outline-offset",
+    "Summary": "Offsets an outline, and draws it beyond the border edge.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_outline-offset.asp",
+    "Example": "style=\"outline-offset: \"",
+    "Values": null
+  },
+  {
+    "Title": "outline-style",
+    "Summary": "Sets the style of an outline.",
+    "Url": "https://www.w3schools.com/cssref/pr_outline-style.asp",
+    "Example": "style=\"outline-style: \"",
+    "Values": null
+  },
+  {
+    "Title": "outline-width",
+    "Summary": "Sets the width of an outline.",
+    "Url": "https://www.w3schools.com/cssref/pr_outline-width.asp",
+    "Example": "style=\"outline-width: \"",
+    "Values": null
+  },
+  {
+    "Title": "overflow",
+    "Summary": "Specifies what happens if content overflows an element's box.",
+    "Url": "https://www.w3schools.com/cssref/pr_pos_overflow.asp",
+    "Example": "style=\"overflow: \"",
+    "Values": null
+  },
+  {
+    "Title": "overflow-wrap",
+    "Summary": "Specifies whether or not the browser can break lines with long words, if                  they overflow the container.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_overflow-wrap.asp",
+    "Example": "style=\"overflow-wrap: \"",
+    "Values": null
+  },
+  {
+    "Title": "overflow-x",
+    "Summary": "Specifies whether or not to clip the left/right edges of the content, if it overflows the                  element's content area.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_overflow-x.asp",
+    "Example": "style=\"overflow-x: \"",
+    "Values": null
+  },
+  {
+    "Title": "overflow-y",
+    "Summary": "Specifies whether or not to clip the top/bottom edges of the content, if it overflows the                  element's content area.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_overflow-y.asp",
+    "Example": "style=\"overflow-y: \"",
+    "Values": null
+  },
+  {
+    "Title": "padding",
+    "Summary": "A shorthand property for all the padding-* properties.",
+    "Url": "https://www.w3schools.com/cssref/pr_padding.asp",
+    "Example": "style=\"padding: \"",
+    "Values": null
+  },
+  {
+    "Title": "padding-bottom",
+    "Summary": "Sets the bottom padding of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_padding-bottom.asp",
+    "Example": "style=\"padding-bottom: \"",
+    "Values": null
+  },
+  {
+    "Title": "padding-left",
+    "Summary": "Sets the left padding of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_padding-left.asp",
+    "Example": "style=\"padding-left: \"",
+    "Values": null
+  },
+  {
+    "Title": "padding-right",
+    "Summary": "Sets the right padding of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_padding-right.asp",
+    "Example": "style=\"padding-right: \"",
+    "Values": null
+  },
+  {
+    "Title": "padding-top",
+    "Summary": "Sets the top padding of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_padding-top.asp",
+    "Example": "style=\"padding-top: \"",
+    "Values": null
+  },
+  {
+    "Title": "page-break-after",
+    "Summary": "Sets the page-break behavior after an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_print_pageba.asp",
+    "Example": "style=\"page-break-after: \"",
+    "Values": null
+  },
+  {
+    "Title": "page-break-before",
+    "Summary": "Sets the page-break behavior before an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_print_pagebb.asp",
+    "Example": "style=\"page-break-before: \"",
+    "Values": null
+  },
+  {
+    "Title": "page-break-inside",
+    "Summary": "Sets the page-break behavior inside an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_print_pagebi.asp",
+    "Example": "style=\"page-break-inside: \"",
+    "Values": null
+  },
+  {
+    "Title": "perspective",
+    "Summary": "Gives a 3D-positioned element some perspective.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_perspective.asp",
+    "Example": "style=\"perspective: \"",
+    "Values": null
+  },
+  {
+    "Title": "perspective-origin",
+    "Summary": "Defines at which position the user is looking at the 3D-positioned element.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_perspective-origin.asp",
+    "Example": "style=\"perspective-origin: \"",
+    "Values": null
+  },
+  {
+    "Title": "pointer-events",
+    "Summary": "Defines whether or not an element reacts to pointer events.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_pointer-events.asp",
+    "Example": "style=\"pointer-events: \"",
+    "Values": null
+  },
+  {
+    "Title": "position",
+    "Summary": "Specifies the type of positioning method used for an element (static, relative, absolute or                  fixed).",
+    "Url": "https://www.w3schools.com/cssref/pr_class_position.asp",
+    "Example": "style=\"position: \"",
+    "Values": null
+  },
+  {
+    "Title": "quotes",
+    "Summary": "Sets the type of quotation marks for embedded quotations.",
+    "Url": "https://www.w3schools.com/cssref/pr_gen_quotes.asp",
+    "Example": "style=\"quotes: \"",
+    "Values": null
+  },
+  {
+    "Title": "resize",
+    "Summary": "Defines if (and how) an element is resizable by the user.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_resize.asp",
+    "Example": "style=\"resize: \"",
+    "Values": null
+  },
+  {
+    "Title": "right",
+    "Summary": "Specifies the right position of a positioned element.",
+    "Url": "https://www.w3schools.com/cssref/pr_pos_right.asp",
+    "Example": "style=\"right: \"",
+    "Values": null
+  },
+  {
+    "Title": "row-gap",
+    "Summary": "Specifies the gap between the grid rows.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_row-gap.asp",
+    "Example": "style=\"row-gap: \"",
+    "Values": null
+  },
+  {
+    "Title": "scroll-behavior",
+    "Summary": "Specifies whether to smoothly animate the scroll position in a scrollable box, instead of a                  straight jump.",
+    "Url": "https://www.w3schools.com/cssref/pr_scroll-behavior.asp",
+    "Example": "style=\"scroll-behavior: \"",
+    "Values": null
+  },
+  {
+    "Title": "tab-size",
+    "Summary": "Specifies the width of a tab character.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_tab-size.asp",
+    "Example": "style=\"tab-size: \"",
+    "Values": null
+  },
+  {
+    "Title": "table-layout",
+    "Summary": "Defines the algorithm used to lay out table cells, rows, and columns.",
+    "Url": "https://www.w3schools.com/cssref/pr_tab_table-layout.asp",
+    "Example": "style=\"table-layout: \"",
+    "Values": null
+  },
+  {
+    "Title": "text-align",
+    "Summary": "Specifies the horizontal alignment of text.",
+    "Url": "https://www.w3schools.com/cssref/pr_text_text-align.asp",
+    "Example": "style=\"text-align: \"",
+    "Values": null
+  },
+  {
+    "Title": "text-align-last",
+    "Summary": "Describes how the last line of a block or a line right before a forced line break is aligned                  when text-align is \"justify\".",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_text-align-last.asp",
+    "Example": "style=\"text-align-last: \"",
+    "Values": null
+  },
+  {
+    "Title": "text-combine-upright",
+    "Summary": "Specifies the combination of multiple characters into the space of a single character.",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"text-combine-upright: \"",
+    "Values": null
+  },
+  {
+    "Title": "text-decoration",
+    "Summary": "Specifies the decoration added to text.",
+    "Url": "https://www.w3schools.com/cssref/pr_text_text-decoration.asp",
+    "Example": "style=\"text-decoration: \"",
+    "Values": null
+  },
+  {
+    "Title": "text-decoration-color",
+    "Summary": "Specifies the color of the text-decoration.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_text-decoration-color.asp",
+    "Example": "style=\"text-decoration-color: \"",
+    "Values": null
+  },
+  {
+    "Title": "text-decoration-line",
+    "Summary": "Specifies the type of line in a text-decoration.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_text-decoration-line.asp",
+    "Example": "style=\"text-decoration-line: \"",
+    "Values": null
+  },
+  {
+    "Title": "text-decoration-style",
+    "Summary": "Specifies the style of the line in a text decoration.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_text-decoration-style.asp",
+    "Example": "style=\"text-decoration-style: \"",
+    "Values": null
+  },
+  {
+    "Title": "text-decoration-thickness",
+    "Summary": "Specifies the thickness of the decoration line.",
+    "Url": "https://www.w3schools.com/cssref/pr_text_text-decoration-thickness.asp",
+    "Example": "style=\"text-decoration-thickness: \"",
+    "Values": null
+  },
+  {
+    "Title": "text-indent",
+    "Summary": "Specifies the indentation of the first line in a text-block.",
+    "Url": "https://www.w3schools.com/cssref/pr_text_text-indent.asp",
+    "Example": "style=\"text-indent: \"",
+    "Values": null
+  },
+  {
+    "Title": "text-justify",
+    "Summary": "Specifies the justification method used when text-align is \"justify\".",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_text-justify.asp",
+    "Example": "style=\"text-justify: \"",
+    "Values": null
+  },
+  {
+    "Title": "text-orientation",
+    "Summary": "Defines the orientation of the text in a line.",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"text-orientation: \"",
+    "Values": null
+  },
+  {
+    "Title": "text-overflow",
+    "Summary": "Specifies what should happen when text overflows the containing element.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_text-overflow.asp",
+    "Example": "style=\"text-overflow: \"",
+    "Values": null
+  },
+  {
+    "Title": "text-shadow",
+    "Summary": "Adds shadow to text.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_text-shadow.asp",
+    "Example": "style=\"text-shadow: \"",
+    "Values": null
+  },
+  {
+    "Title": "text-transform",
+    "Summary": "Controls the capitalization of text.",
+    "Url": "https://www.w3schools.com/cssref/pr_text_text-transform.asp",
+    "Example": "style=\"text-transform: \"",
+    "Values": null
+  },
+  {
+    "Title": "text-underline-position",
+    "Summary": "Specifies the position of the underline which is set using the text-decoration property.",
+    "Url": "https://www.w3schools.com/cssref/https://www.w3schools.com/",
+    "Example": "style=\"text-underline-position: \"",
+    "Values": null
+  },
+  {
+    "Title": "top",
+    "Summary": "Specifies the top position of a positioned element.",
+    "Url": "https://www.w3schools.com/cssref/pr_pos_top.asp",
+    "Example": "style=\"top: \"",
+    "Values": null
+  },
+  {
+    "Title": "transform",
+    "Summary": "Applies a 2D or 3D transformation to an element.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_transform.asp",
+    "Example": "style=\"transform: \"",
+    "Values": null
+  },
+  {
+    "Title": "transform-origin",
+    "Summary": "Allows you to change the position on transformed elements.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_transform-origin.asp",
+    "Example": "style=\"transform-origin: \"",
+    "Values": null
+  },
+  {
+    "Title": "transform-style",
+    "Summary": "Specifies how nested elements are rendered in 3D space.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_transform-style.asp",
+    "Example": "style=\"transform-style: \"",
+    "Values": null
+  },
+  {
+    "Title": "transition",
+    "Summary": "A shorthand property for all the transition-* properties.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_transition.asp",
+    "Example": "style=\"transition: \"",
+    "Values": null
+  },
+  {
+    "Title": "transition-delay",
+    "Summary": "Specifies when the transition effect will start.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_transition-delay.asp",
+    "Example": "style=\"transition-delay: \"",
+    "Values": null
+  },
+  {
+    "Title": "transition-duration",
+    "Summary": "Specifies how many seconds or milliseconds a transition effect takes to complete.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_transition-duration.asp",
+    "Example": "style=\"transition-duration: \"",
+    "Values": null
+  },
+  {
+    "Title": "transition-property",
+    "Summary": "Specifies the name of the CSS property the transition effect is for.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_transition-property.asp",
+    "Example": "style=\"transition-property: \"",
+    "Values": null
+  },
+  {
+    "Title": "transition-timing-function",
+    "Summary": "Specifies the speed curve of the transition effect.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp",
+    "Example": "style=\"transition-timing-function: \"",
+    "Values": null
+  },
+  {
+    "Title": "unicode-bidi",
+    "Summary": "Used together with the direction property to set or                  return whether the text should be overridden to support multiple languages in the same                  document.",
+    "Url": "https://www.w3schools.com/cssref/pr_text_unicode-bidi.asp",
+    "Example": "style=\"unicode-bidi: \"",
+    "Values": null
+  },
+  {
+    "Title": "user-select",
+    "Summary": "Specifies whether the text of an element can be selected.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_user-select.asp",
+    "Example": "style=\"user-select: \"",
+    "Values": null
+  },
+  {
+    "Title": "vertical-align",
+    "Summary": "Sets the vertical alignment of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_pos_vertical-align.asp",
+    "Example": "style=\"vertical-align: \"",
+    "Values": null
+  },
+  {
+    "Title": "visibility",
+    "Summary": "Specifies whether or not an element is visible.",
+    "Url": "https://www.w3schools.com/cssref/pr_class_visibility.asp",
+    "Example": "style=\"visibility: \"",
+    "Values": null
+  },
+  {
+    "Title": "white-space",
+    "Summary": "Specifies how white-space inside an element is handled.",
+    "Url": "https://www.w3schools.com/cssref/pr_text_white-space.asp",
+    "Example": "style=\"white-space: \"",
+    "Values": null
+  },
+  {
+    "Title": "widows",
+    "Summary": "Sets the minimum number of lines that must be left at the top of a page                  or column.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_widows.asp",
+    "Example": "style=\"widows: \"",
+    "Values": null
+  },
+  {
+    "Title": "width",
+    "Summary": "Sets the width of an element.",
+    "Url": "https://www.w3schools.com/cssref/pr_dim_width.asp",
+    "Example": "style=\"width: \"",
+    "Values": null
+  },
+  {
+    "Title": "word-break",
+    "Summary": "Specifies how words should break when reaching the end of a line.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_word-break.asp",
+    "Example": "style=\"word-break: \"",
+    "Values": null
+  },
+  {
+    "Title": "word-spacing",
+    "Summary": "Increases or decreases the space between words in a text.",
+    "Url": "https://www.w3schools.com/cssref/pr_text_word-spacing.asp",
+    "Example": "style=\"word-spacing: \"",
+    "Values": null
+  },
+  {
+    "Title": "word-wrap",
+    "Summary": "Allows long, unbreakable words to be broken and wrap to the next line.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_word-wrap.asp",
+    "Example": "style=\"word-wrap: \"",
+    "Values": null
+  },
+  {
+    "Title": "writing-mode",
+    "Summary": "Specifies whether lines of text are laid out horizontally or vertically.",
+    "Url": "https://www.w3schools.com/cssref/css3_pr_writing-mode.asp",
+    "Example": "style=\"writing-mode: \"",
+    "Values": null
+  },
+  {
+    "Title": "z-index",
+    "Summary": "Sets the stack order of a positioned element.",
+    "Url": "https://www.w3schools.com/cssref/pr_pos_z-index.asp",
+    "Example": "style=\"z-index: \"",
+    "Values": null
+  }
+]

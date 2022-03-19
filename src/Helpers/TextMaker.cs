@@ -19,5 +19,6 @@ namespace StylerCode.Css
             }
             return sb.ToString();
         }
+        
     }
 }
