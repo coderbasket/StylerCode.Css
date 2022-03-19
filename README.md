@@ -32,6 +32,7 @@ string cssValuesString = (Css)DrawerStyle;
 
 		myStyles.Remove(Cp.Color);
 ```
+![alt text](https://github.com/[coderbasket]/[StylerCode.Css]/blob/[main]/20220319_191849.jpg?raw=true)
 * Github: [https://github.com/coderbasket/StylerCode.Css](https://github.com/coderbasket/StylerCode.Css)
 
 Code nuget publish => oy2p6bifc57fjnxo7u7al3qs5aem72kunf4cstnsqfd2la
