@@ -3,15 +3,15 @@
 * NuGet: [StylerCode.Css](https://www.nuget.org/packages/StylerCode.Css/) [![NuGet](https://img.shields.io/nuget/v/StylerCode.Css?label=NuGet)](https://www.nuget.org/packages/StylerCode.Css/)
 Style html using C# codes.
 ```csharp
-Css verseStyle = new Css();
-            verseStyle.Add(Cp.Font_Size, FontVerseNumberSize);
-            verseStyle.Add(Cp.Font_Style, "italic");
-            verseStyle.Add(Cp.Font_Weight, "normal");
-            verseStyle.Add(Cp.Color, SystemAccentColor.ToHex());
+Css style = new Css();
+            style.Add(Cp.Font_Size, FontVerseNumberSize);
+            style.Add(Cp.Font_Style, "italic");
+            style.Add(Cp.Font_Weight, "normal");
+            style.Add(Cp.Color, SystemAccentColor.ToHex());
 	    
-            verseWordsStyle.Add(Cp.Transform, Cv.TranslateX("60px"));
+            style.Add(Cp.Transform, Cv.TranslateX("60px"));
 	    
-            var spn = $"<span {verseStyle.ToAttributeStyles()}>{verseNumber}</span>";
+            var spn = $"<span {style.ToAttributeStyles()}>{verseNumber}</span>";
             <div style="@verseStyle"></div>
            
 ```
