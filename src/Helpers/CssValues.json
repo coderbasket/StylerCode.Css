@@ -1,1 +1,1594 @@
-﻿
+﻿[
+  {
+    "Title": "align-content",
+    "Values": [ "stretch", "flex-start", "flex-end", "center", "space-between", "space-around", "normal", "baseline", "first baseline", "last baseline", "space-between", "space-around", "space-evenly", "stretch", "center", "start", "end", "center safe", "center unsafe", "safe", "unsafe" ]
+  },
+  {
+    "Title": "align-items",
+    "Values": [ "normal", "flex-start", "flex-end", "start", "end", "self-start", "self-end", "baseline", "first baseline", "last baseline", "stretch", "safe", "unsafe" ]
+  },
+  {
+    "Title": "align-self",
+    "Values": [ "auto", "normal", "self-start", "self-end", "flex-start", "flex-end", "center", "baseline", "first baseline", "last baseline", "stretch", "safe", "unsafe" ]
+  },
+  {
+    "Title": "all",
+    "Values": [ "initial", "inherit", "unset", "revert" ]
+  },
+  {
+    "Title": "animation ",
+    "Values": [ "[animation‑name] [animation‑duration] [animation‑timing‑function] [animation‑delay] [animation‑iteration‑count] [animation‑direction] [animation‑fill‑mode] [animation‑play‑state]" ]
+  },
+  {
+    "Title": "animation-delay",
+    "Values": [ "0s", "&lt;time&gt;", "@keyframes" ]
+  },
+  {
+    "Title": "animation-direction",
+    "Values": [ "normal", "reverse", "alternate-reverse", "alternate", "@keyframes" ]
+  },
+  {
+    "Title": "animation-duration",
+    "Values": [ "0s", "&lt;time&gt;", "@keyframes" ]
+  },
+  {
+    "Title": "animation-fill-mode",
+    "Values": [ "none", "forwards", "both", "backwards", "animation-name", "&lt;@keyframes&gt;" ]
+  },
+  {
+    "Title": "animation-iteration-count",
+    "Values": [ "1", "infinite", "&lt;number&gt;", "@keyframes" ]
+  },
+  {
+    "Title": "animation-name",
+    "Values": [ "none", "&lt;custom identifier&gt;", "@keyframes", "@keyframes" ]
+  },
+  {
+    "Title": "animation-play-state",
+    "Values": [ "running", "paused", "@keyframes" ]
+  },
+  {
+    "Title": "animation-timing-function",
+    "Values": [ "ease", "linear", "step-start", "step-end", "ease-in", "ease-out", "ease-in-out", "steps(&lt;integer&gt;)", "steps(&lt;integer&gt;, start)", "steps(&lt;integer&gt;, end)", "steps(&lt;integer&gt;, jump-start)", "steps(&lt;integer&gt;, jump-end)", "steps(&lt;integer&gt;, jump-none)", "steps(&lt;integer&gt;, jump-both)", "cubic-bezier(&lt;number&gt;, &lt;number&gt;, &lt;number&gt;, &lt;number&gt;)", "@keyframes", "cubic-bezier()" ]
+  },
+  {
+    "Title": "appearance",
+    "Values": [ "none", "auto", "textfield", "menulist-button", "searchfield", "textarea", "push-button", "slider-horizontal", "checkbox", "radio", "square-button", "menulist", "listbox", "meter", "progress-bar", "button", "-webkit-appearance", "searchfield" ]
+  },
+  {
+    "Title": "aspect-ratio",
+    "Values": [ "auto", "&lt;ratio&gt;" ]
+  },
+  {
+    "Title": "backface-visibility",
+    "Values": [ "visible", "hidden" ]
+  },
+  {
+    "Title": "background ",
+    "Values": [ "[background‑color] [background‑image] [background‑repeat] [background‑attachment] [background‑position] / [ background‑size] [background‑origin] [background‑clip]", "background-size", "background-position", "background-origin", "background-clip", "background-origin", "background-origin", "background-clip" ]
+  },
+  {
+    "Title": "background-attachment",
+    "Values": [ "scroll", "fixed", "local", "background-attachment" ]
+  },
+  {
+    "Title": "background-blend-mode",
+    "Values": [ "normal", "multiply", "screen", "overlay", "darken", "lighten", "color-dodge", "color-burn", "hard-light", "soft-light", "difference", "exclusion", "hue", "saturation", "color", "luminosity" ]
+  },
+  {
+    "Title": "background-clip",
+    "Values": [ "border-box", "padding-box", "content-box", "text", "background-clip" ]
+  },
+  {
+    "Title": "background-color",
+    "Values": [ "transparent", "&lt;color-keyword&gt;", "&lt;rgb-color&gt;", "&lt;rgba-color&gt;", "&lt;hsl-color&gt;", "&lt;hsla-color&gt;", "currentColor", "&lt;system-color&gt;" ]
+  },
+  {
+    "Title": "background-image",
+    "Values": [ "none", "url(\"path/file.png\")", "&lt;radial-gradient&gt;", "&lt;linear-gradient&gt;", "&lt;conic-gradient&gt;", "&lt;repeating-gradient&gt;", "element()", "image()", "image-set()", "cross-fade()" ]
+  },
+  {
+    "Title": "background-origin",
+    "Values": [ "padding-box", "border-box", "content-box", "background-attachment" ]
+  },
+  {
+    "Title": "background-position",
+    "Values": [ "0% 0%", "top", "bottom", "left", "right", "center", "right bottom", "left top", "center center", "&lt;percentage&gt; &lt;length&gt;", "background-position" ]
+  },
+  {
+    "Title": "background-repeat",
+    "Values": [ "repeat", "no-repeat", "space", "round", "repeat-y", "repeat-x", "repeat no-repeat", "round round", "space space", "background-repeat" ]
+  },
+  {
+    "Title": "background-size",
+    "Values": [ "auto", "auto auto", "cover", "contain", "auto &lt;percentage&gt;", "&lt;percentage&gt; &lt;length&gt;", "&lt;percentage&gt;", "&lt;length&gt; auto", "&lt;length&gt; &lt;percentage&gt;", "&lt;length&gt;", "background-size" ]
+  },
+  {
+    "Title": "block-size ",
+    "Values": [ "auto", "&lt;length&gt;", "&lt;percentage&gt;", "max-content", "min-content", "available", "fit-content", "&lt;length&gt; border-box", "&lt;percentage&gt; content-box" ]
+  },
+  {
+    "Title": "border ",
+    "Values": [ "[border‑width] [border‑style] [border‑color]", "border-image" ]
+  },
+  {
+    "Title": "border-block ",
+    "Values": [ "[border‑block‑width] [border‑block‑style] [border‑block‑color]" ]
+  },
+  {
+    "Title": "border-block-color",
+    "Values": [ "&lt;border-block-start-color&gt; &lt;border-block-end-color&gt;" ]
+  },
+  {
+    "Title": "border-block-end ",
+    "Values": [ "[border‑block‑end‑width] [border‑block‑end‑style] [border‑block‑end‑color]" ]
+  },
+  {
+    "Title": "border-block-end-color",
+    "Values": [ "&lt;color&gt;" ]
+  },
+  {
+    "Title": "border-block-end-style",
+    "Values": [ "none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset" ]
+  },
+  {
+    "Title": "border-block-end-width",
+    "Values": [ "medium", "thin", "thick", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "border-block-start ",
+    "Values": [ "[border‑block‑end‑width] [border‑block‑end‑style] [border‑block‑end‑color]" ]
+  },
+  {
+    "Title": "border-block-start-color",
+    "Values": [ "&lt;color&gt;" ]
+  },
+  {
+    "Title": "border-block-start-style",
+    "Values": [ "none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset" ]
+  },
+  {
+    "Title": "border-block-start-width",
+    "Values": [ "medium", "thin", "thick", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "border-block-style ",
+    "Values": [ "[border‑top‑style] [border‑bottom‑style]", "[border‑left‑style] [border‑right‑style]" ]
+  },
+  {
+    "Title": "border-block-width",
+    "Values": [ "[border‑top‑width] [border‑bottom‑width]", "[border‑left‑width] [border‑right‑width]" ]
+  },
+  {
+    "Title": "border-bottom ",
+    "Values": [ "[border‑bottom‑width] [border‑bottom‑style] [border‑bottom‑color]" ]
+  },
+  {
+    "Title": "border-bottom-color",
+    "Values": [ "&lt;currentColor&gt;", "transparent", "&lt;color&gt;" ]
+  },
+  {
+    "Title": "border-bottom-left-radius",
+    "Values": [ "0", "&lt;percentage&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "border-bottom-right-radius",
+    "Values": [ "0", "&lt;percentage&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "border-bottom-style",
+    "Values": [ "none", "solid", "ridge", "outset", "inset", "hidden", "groove", "double", "dotted", "dashed" ]
+  },
+  {
+    "Title": "border-bottom-width",
+    "Values": [ "medium", "thin", "thick", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "border-collapse",
+    "Values": [ "separate", "collapse" ]
+  },
+  {
+    "Title": "border-color",
+    "Values": [ "[border‑top‑color] [border‑right‑color] [border‑bottom‑color] [border‑left‑color]" ]
+  },
+  {
+    "Title": "border-end-end-radius",
+    "Values": [ "0", "&lt;length&gt; &lt;percentage&gt;" ]
+  },
+  {
+    "Title": "border-end-start-radius",
+    "Values": [ "0", "&lt;length&gt; &lt;percentage&gt;" ]
+  },
+  {
+    "Title": "border-image ",
+    "Values": [ "[border‑image‑source] [border‑image‑slice] / [border‑image‑width] / [border‑image‑outset] [border‑image‑repeat]" ]
+  },
+  {
+    "Title": "border-image-outset",
+    "Values": [ "0", "&lt;length&gt;", "&lt;number&gt;" ]
+  },
+  {
+    "Title": "border-image-repeat",
+    "Values": [ "stretch", "space", "round", "repeat", "space round", "stretch repeat" ]
+  },
+  {
+    "Title": "border-image-slice",
+    "Values": [ "100%", "&lt;number&gt;", "&lt;percentage&gt;", "&lt;number&gt; fill", "&lt;percentage&gt; fill", "fill" ]
+  },
+  {
+    "Title": "border-image-source ",
+    "Values": [ "none", "url(\"path/file.png\")", "&lt;radial-gradient&gt;", "&lt;linear-gradient&gt;", "&lt;conic-gradient&gt;", "&lt;repeating-gradient&gt;", "element()", "image()", "image-set()", "cross-fade()" ]
+  },
+  {
+    "Title": "border-image-width",
+    "Values": [ "1", "&lt;length&gt;", "&lt;percentage&gt;", "&lt;number&gt;", "&lt;length&gt; &lt;percentage&gt;", "&lt;length&gt; &lt;percentage&gt; &lt;number&gt; &lt;number&gt;" ]
+  },
+  {
+    "Title": "border-inline ",
+    "Values": [ "[border‑inline‑width] [border‑inline‑style] [border‑inline‑color]" ]
+  },
+  {
+    "Title": "border-inline-color",
+    "Values": [ "[border‑inline‑start‑color] [border‑inline‑end‑color]" ]
+  },
+  {
+    "Title": "border-inline-end ",
+    "Values": [ "[border‑inline‑end‑width] [border‑inline‑end‑style] [border‑inline‑end‑color]" ]
+  },
+  {
+    "Title": "border-inline-end-color",
+    "Values": [ "&lt;color&gt;" ]
+  },
+  {
+    "Title": "border-inline-end-style",
+    "Values": [ "none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset" ]
+  },
+  {
+    "Title": "border-inline-end-width",
+    "Values": [ "medium", "thin", "thick", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "border-inline-start ",
+    "Values": [ "[border‑inline‑end‑width] [border‑inline‑end‑style] [border‑inline‑end‑color]" ]
+  },
+  {
+    "Title": "border-inline-start-color",
+    "Values": [ "&lt;color&gt;" ]
+  },
+  {
+    "Title": "border-inline-start-style",
+    "Values": [ "none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset" ]
+  },
+  {
+    "Title": "border-inline-start-width",
+    "Values": [ "medium", "thin", "thick", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "border-inline-style",
+    "Values": [ "[border‑top‑style] [border‑bottom‑style]", "[border‑left‑style] [border‑right‑style]" ]
+  },
+  {
+    "Title": "border-inline-width",
+    "Values": [ "[border‑top‑width] [border‑bottom‑width]", "[border‑left‑width] [border‑right‑width]" ]
+  },
+  {
+    "Title": "border-left ",
+    "Values": [ "[border‑width] [border‑style] [border‑color]" ]
+  },
+  {
+    "Title": "border-left-color",
+    "Values": [ "&lt;currentColor&gt;", "transparent", "&lt;color&gt;" ]
+  },
+  {
+    "Title": "border-left-style",
+    "Values": [ "none", "solid", "ridge", "outset", "inset", "hidden", "groove", "double", "dotted", "dashed" ]
+  },
+  {
+    "Title": "border-left-width",
+    "Values": [ "medium", "thin", "thick", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "border-radius",
+    "Values": [ "0", "&lt;percentage&gt;", "&lt;length&gt; &lt;percentage&gt; &lt;length&gt; &lt;percentage&gt;", "&lt;length&gt; / &lt;percentage&gt;" ]
+  },
+  {
+    "Title": "border-right ",
+    "Values": [ "[border‑right‑width] [border‑right‑style] [border‑right‑color]" ]
+  },
+  {
+    "Title": "border-right-color",
+    "Values": [ "&lt;currentColor&gt;", "transparent", "&lt;color&gt;" ]
+  },
+  {
+    "Title": "border-right-style",
+    "Values": [ "none", "solid", "ridge", "outset", "inset", "hidden", "groove", "double", "dotted", "dashed" ]
+  },
+  {
+    "Title": "border-right-width",
+    "Values": [ "medium", "thin", "thick", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "border-spacing",
+    "Values": [ "0", "&lt;length&gt; &lt;length&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "border-start-end-radius",
+    "Values": [ "0", "&lt;length&gt; &lt;percentage&gt;" ]
+  },
+  {
+    "Title": "border-start-start-radius",
+    "Values": [ "0", "&lt;length&gt; &lt;percentage&gt;" ]
+  },
+  {
+    "Title": "border-style",
+    "Values": [ "none", "solid", "ridge", "outset", "inset", "hidden", "groove", "double", "dotted", "dashed" ]
+  },
+  {
+    "Title": "border-top ",
+    "Values": [ "[border‑top‑width] [border‑top‑style] [border‑top‑color]" ]
+  },
+  {
+    "Title": "border-top-color",
+    "Values": [ "&lt;currentColor&gt;", "transparent", "&lt;color&gt;" ]
+  },
+  {
+    "Title": "border-top-left-radius",
+    "Values": [ "0", "&lt;percentage&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "border-top-right-radius",
+    "Values": [ "0", "&lt;percentage&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "border-top-style",
+    "Values": [ "none", "solid", "ridge", "outset", "inset", "hidden", "groove", "double", "dotted", "dashed" ]
+  },
+  {
+    "Title": "border-top-width",
+    "Values": [ "medium", "thin", "thick", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "border-width",
+    "Values": [ "[border‑top‑width] [border‑right‑width] [border‑bottom‑width] [border‑left‑width]" ]
+  },
+  {
+    "Title": "bottom ",
+    "Values": [ "auto", "&lt;percentage&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "box-decoration-break",
+    "Values": [ "slice", "clone" ]
+  },
+  {
+    "Title": "box-shadow",
+    "Values": [ "none", "[h‑ofset] [v‑offset] [blur] [spread] &lt;color&gt; inset" ]
+  },
+  {
+    "Title": "box-sizing",
+    "Values": [ "content-box", "border-box", "padding-box" ]
+  },
+  {
+    "Title": "break-after",
+    "Values": [ "auto", "avoid", "always", "all", "avoid-page", "page", "left", "right", "recto", "verso", "avoid-column", "column", "avoid-region", "region" ]
+  },
+  {
+    "Title": "break-before",
+    "Values": [ "auto", "avoid", "always", "all", "avoid-page", "page", "left", "right", "recto", "verso", "avoid-column", "column", "avoid-region", "region" ]
+  },
+  {
+    "Title": "break-inside",
+    "Values": [ "auto", "avoid", "avoid-page", "avoid-column", "avoid-region" ]
+  },
+  {
+    "Title": "caption-side",
+    "Values": [ "top", "bottom", "inline-start", "inline-end", "&lt;caption&gt;" ]
+  },
+  {
+    "Title": "caret-color",
+    "Values": [ "auto", "currentColor", "&lt;color&gt;" ]
+  },
+  {
+    "Title": "clear ",
+    "Values": [ "none", "left", "right", "both", "inline-start", "inline-end" ]
+  },
+  {
+    "Title": "clip ",
+    "Values": [ "auto", "rect(&lt;length&gt;, &lt;length&gt;, &lt;length&gt;, &lt;length&gt;)", "clip-path" ]
+  },
+  {
+    "Title": "clip-path",
+    "Values": [ "none", "&lt;clipPath&gt;", "inset()", "circle()", "ellipse()", "polygon()", "path()", "margin-box", "border-box", "padding-box", "content-box", "fill-box", "stroke-box", "view-box", "margin-box inset()", "clip", "clipPath" ]
+  },
+  {
+    "Title": "color ",
+    "Values": [ "[ initial value depends on UA ]", "currentColor", "transparent", "&lt;color&gt;" ]
+  },
+  {
+    "Title": "color-adjust",
+    "Values": [ "economy", "exact" ]
+  },
+  {
+    "Title": "column-count",
+    "Values": [ "auto", "&lt;integer&gt;" ]
+  },
+  {
+    "Title": "column-fill",
+    "Values": [ "balance", "auto", "balance-all" ]
+  },
+  {
+    "Title": "column-gap",
+    "Values": [ "normal", "&lt;length&gt;", "&lt;percentage&gt;", "grid-column-gap" ]
+  },
+  {
+    "Title": "column-rule ",
+    "Values": [ "[column‑rule‑width] [column‑rule‑style] [column‑rule‑color]" ]
+  },
+  {
+    "Title": "column-rule-color",
+    "Values": [ "[ Initial value depends on UA ]", "currentColor", "transparent", "&lt;color&gt;" ]
+  },
+  {
+    "Title": "column-rule-style",
+    "Values": [ "none", "solid", "ridge", "outset", "inset", "hidden", "groove", "double", "dotted", "dashed" ]
+  },
+  {
+    "Title": "column-rule-width",
+    "Values": [ "medium", "thin", "thick", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "column-span",
+    "Values": [ "none", "all" ]
+  },
+  {
+    "Title": "column-width",
+    "Values": [ "auto", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "columns ",
+    "Values": [ "[column‑width] [column‑count]" ]
+  },
+  {
+    "Title": "content ",
+    "Values": [ "normal", "none", "open-quote", "close-quote", "no-open-quote", "no-close-quote", "contents", "image()", "&lt;string&gt;", "attr()", "&lt;counter&gt;", "target-counter()", "target-text()", "leader()", "::before", "::after" ]
+  },
+  {
+    "Title": "content-visibility",
+    "Values": [ "visible", "hidden", "auto" ]
+  },
+  {
+    "Title": "counter-increment",
+    "Values": [ "none", "&lt;custom identifier&gt; &lt;integer&gt;" ]
+  },
+  {
+    "Title": "counter-reset",
+    "Values": [ "none", "&lt;custom identifier&gt; &lt;integer&gt;" ]
+  },
+  {
+    "Title": "counter-set",
+    "Values": [ "none", "&lt;custom identifier&gt; &lt;integer&gt;" ]
+  },
+  {
+    "Title": "cursor",
+    "Values": [ "auto", "url(\"path/file.png\")", "url(\"path/file.png\") &lt;number&gt; &lt;number&gt;", "default", "none", "context-menu", "help", "pointer", "progress", "wait", "cell", "crosshair", "text", "vertical-text", "alias", "copy", "move", "no-drop", "not-allowed", "grab", "grabbing", "all-scroll", "col-resize", "row-resize", "n-resize", "s-resize", "w-resize", "ne-resize", "nw-resize", "se-resize", "sw-resize", "ew-resize", "ns-resize", "nesw-resize", "nwse-resize", "zoom-in", "zoom-out" ]
+  },
+  {
+    "Title": "direction ",
+    "Values": [ "ltr", "rtl" ]
+  },
+  {
+    "Title": "display ",
+    "Values": [ "inline", "block", "inline-block", "inline-table", "run-in", "flow", "flow-root", "table", "flex", "grid", "ruby", "list-item", "table-row-group", "table-header-group", "table-footer-group", "table-row", "table-cell", "table-column-group", "table-column", "table-caption", "ruby-base", "ruby-text", "ruby-base-container", "ruby-text-container", "contents", "none", "inline-flex", "inline-grid" ]
+  },
+  {
+    "Title": "empty-cells",
+    "Values": [ "show", "hide" ]
+  },
+  {
+    "Title": "filter ",
+    "Values": [ "none", "url(\"filters.svg#filter-id\");", "blur(&lt;length&gt;)", "brightness(&lt;percentage&gt;)", "contrast(&lt;percentage&gt;)", "drop-shadow(&lt;length&gt; &lt;length&gt; &lt;length&gt; &lt;length&gt; &lt;color&gt; inset)", "grayscale(&lt;percentage&gt;)", "hue-rotate(&lt;angle&gt;)", "invert(&lt;percentage&gt;)", "opacity(&lt;percentage&gt;)", "saturate(&lt;percentage&gt;)", "sepia(&lt;percentage&gt;)", "contrast(&lt;percentage&gt;) blur(&lt;length&gt;)", "drop-shadow()", "box-shadow", "text-shadow" ]
+  },
+  {
+    "Title": "flex ",
+    "Values": [ "[flex‑grow] [flex‑shrink] [flex‑basis]", "none" ]
+  },
+  {
+    "Title": "flex-basis",
+    "Values": [ "auto", "content", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "flex-direction",
+    "Values": [ "row", "row-reverse", "column", "column-reverse" ]
+  },
+  {
+    "Title": "flex-flow",
+    "Values": [ "[flex‑direction] [flex‑wrap]" ]
+  },
+  {
+    "Title": "flex-grow",
+    "Values": [ "0", "&lt;number&gt;" ]
+  },
+  {
+    "Title": "flex-shrink",
+    "Values": [ "1", "&lt;number&gt;" ]
+  },
+  {
+    "Title": "flex-wrap",
+    "Values": [ "nowrap", "wrap", "wrap-reverse" ]
+  },
+  {
+    "Title": "float",
+    "Values": [ "none", "left", "right", "inline-start", "inline-end", "block-start", "block-end", "snap-block", "snap-block()", "snap-inline", "snap-inline()", "top", "bottom" ]
+  },
+  {
+    "Title": "font ",
+    "Values": [ "[font‑style] [font‑variant] [font‑weight] [font‑stretch] [font‑size] / [line‑height] [font‑family]", "caption", "icon", "menu", "message-box", "small-caption", "status-bar" ]
+  },
+  {
+    "Title": "font-family",
+    "Values": [ "[ Initial value depends on UA ]", "&lt;family-name&gt;", "serif", "sans-serif", "cursive", "fantasy", "monospace", "system-ui", "emoji", "math", "fangsong", "ui-serif", "ui-sans-serif", "ui-monospace", "ui-rounded" ]
+  },
+  {
+    "Title": "font-feature-settings",
+    "Values": [ "normal", "&lt;string&gt;", "&lt;string&gt; &lt;integer&gt;", "&lt;string&gt; on", "&lt;string&gt; off" ]
+  },
+  {
+    "Title": "font-kerning",
+    "Values": [ "auto", "normal", "none" ]
+  },
+  {
+    "Title": "font-language-override",
+    "Values": [ "normal", "&lt;string&gt;" ]
+  },
+  {
+    "Title": "font-optical-sizing",
+    "Values": [ "auto", "none" ]
+  },
+  {
+    "Title": "font-size ",
+    "Values": [ "medium", "xx-small", "x-small", "small", "large", "x-large", "xx-large", "xxx-large", "smaller", "larger", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "font-size-adjust",
+    "Values": [ "none", "&lt;number&gt;" ]
+  },
+  {
+    "Title": "font-stretch",
+    "Values": [ "normal", "semi-condensed", "condensed", "extra-condensed", "ultra-condensed", "semi-expanded", "expanded", "extra-expanded", "ultra-expanded", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "font-style",
+    "Values": [ "normal", "italic", "oblique", "oblique &lt;angle&gt;" ]
+  },
+  {
+    "Title": "font-synthesis",
+    "Values": [ "weight style", "none", "weight", "style" ]
+  },
+  {
+    "Title": "font-variant ",
+    "Values": [ "normal", "small-caps", "all-small-caps", "petite-caps", "all-petite-caps", "unicase", "titling-caps", "none", "[font‑variant‑caps] [font‑variant‑numeric] [font‑variant‑alternates] [font‑variant‑ligatures] [font‑variant‑east‑asian]" ]
+  },
+  {
+    "Title": "font-variant-caps",
+    "Values": [ "normal", "unicase", "titling-caps", "small-caps", "petite-caps", "all-small-caps", "all-petite-caps" ]
+  },
+  {
+    "Title": "font-variant-east-asian",
+    "Values": [ "normal", "jis78", "jis83", "jis90", "jis04", "simplified", "traditional", "full-width", "proportional-width", "ruby" ]
+  },
+  {
+    "Title": "font-variant-emoji",
+    "Values": [ "auto", "text", "emoji", "unicode" ]
+  },
+  {
+    "Title": "font-variant-ligatures",
+    "Values": [ "normal", "none", "common-ligatures", "no-common-ligatures", "discretionary-ligatures", "no-discretionary-ligatures", "historical-ligatures", "no-historical-ligatures", "contextual", "no-contextual" ]
+  },
+  {
+    "Title": "font-variant-numeric",
+    "Values": [ "normal", "ordinal", "slashed-zero", "lining-nums", "oldstyle-nums", "proportional-nums", "tabular-nums", "diagonal-fractions", "stacked-fractions" ]
+  },
+  {
+    "Title": "font-variant-position",
+    "Values": [ "normal", "sub", "super" ]
+  },
+  {
+    "Title": "font-weight",
+    "Values": [ "normal", "bold", "lighter", "bolder", "900", "800", "700", "600", "500", "400", "300", "200", "100" ]
+  },
+  {
+    "Title": "footnote-display",
+    "Values": [ "normal", "sub", "super" ]
+  },
+  {
+    "Title": "footnote-policy",
+    "Values": [ "auto", "line", "block" ]
+  },
+  {
+    "Title": "forced-color-adjust",
+    "Values": [ "auto", "none" ]
+  },
+  {
+    "Title": "gap ",
+    "Values": [ "[row‑gap] [column‑gap]", "grid-gap" ]
+  },
+  {
+    "Title": "grid ",
+    "Values": [ "[grid‑template]", "[grid‑template‑rows] / auto‑flow [grid‑auto‑columns]", "[grid‑template‑rows] / auto‑flow dense [grid‑auto‑columns]", "auto‑flow / [grid‑auto‑rows] / [grid‑template‑columns]" ]
+  },
+  {
+    "Title": "grid-area",
+    "Values": [ "[grid‑row‑start] / [grid‑column‑start] / [grid‑row‑end] / [grid‑column‑end]" ]
+  },
+  {
+    "Title": "grid-auto-columns",
+    "Values": [ "auto", "min-content", "max-content", "&lt;percentage&gt;", "&lt;length&gt;", "&lt;flex length&gt;", "minmax(min, max)", "fit-content()", "min-content max-content auto;", "&lt;length&gt; &lt;length&gt; &lt;length&gt;", "&lt;percentage&gt; &lt;percentage&gt;", "&lt;flex length&gt; &lt;flex length&gt; &lt;flex length&gt;", "minmax(min, max) minmax(min, max) minmax(min, max)", "&lt;length&gt; minmax(min, max) &lt;percentage&gt; &lt;flex length&gt; fit-content()" ]
+  },
+  {
+    "Title": "grid-auto-flow",
+    "Values": [ "row", "column", "dense", "row dense", "column dense" ]
+  },
+  {
+    "Title": "grid-auto-rows",
+    "Values": [ "auto", "min-content", "max-content", "&lt;percentage&gt;", "&lt;length&gt;", "&lt;flex length&gt;", "minmax(min, max)", "fit-content()", "min-content max-content auto;", "&lt;length&gt; &lt;length&gt; &lt;length&gt;", "&lt;percentage&gt; &lt;percentage&gt;", "&lt;flex length&gt; &lt;flex length&gt; &lt;flex length&gt;", "minmax(min, max) minmax(min, max) minmax(min, max)", "&lt;length&gt; minmax(min, max) &lt;percentage&gt; &lt;flex length&gt; fit-content()" ]
+  },
+  {
+    "Title": "grid-column ",
+    "Values": [ "[grid‑column‑start] / [grid‑column‑end]" ]
+  },
+  {
+    "Title": "grid-column-end",
+    "Values": [ "auto", "&lt;custom identifier&gt;", "&lt;integer&gt;", "&lt;integer&gt; &lt;custom identifier&gt;", "span &lt;custom identifier&gt;", "span &lt;integer&gt;", "&lt;integer&gt; &lt;custom identifier&gt; span" ]
+  },
+  {
+    "Title": "grid-column-start",
+    "Values": [ "auto", "&lt;custom identifier&gt;", "&lt;integer&gt;", "&lt;integer&gt; &lt;custom identifier&gt;", "span &lt;custom identifier&gt;", "span &lt;integer&gt;", "&lt;integer&gt; &lt;custom identifier&gt; span" ]
+  },
+  {
+    "Title": "grid-row ",
+    "Values": [ "[grid‑row‑start] / [grid‑row‑end]" ]
+  },
+  {
+    "Title": "grid-row-end",
+    "Values": [ "auto", "&lt;custom identifier&gt;", "&lt;integer&gt;", "&lt;integer&gt; &lt;custom identifier&gt;", "span &lt;custom identifier&gt;", "span &lt;integer&gt;", "&lt;integer&gt; &lt;custom identifier&gt; span" ]
+  },
+  {
+    "Title": "grid-row-start",
+    "Values": [ "auto", "&lt;custom identifier&gt;", "&lt;integer&gt;", "&lt;integer&gt; &lt;custom identifier&gt;", "span &lt;custom identifier&gt;", "span &lt;integer&gt;", "&lt;integer&gt; &lt;custom identifier&gt; span" ]
+  },
+  {
+    "Title": "grid-template ",
+    "Values": [ "[grid‑template‑columns] [grid‑template‑rows] [grid‑template‑areas]" ]
+  },
+  {
+    "Title": "grid-template-areas",
+    "Values": [ "none", "\"a b b\"\r\n                \"a c d\"" ]
+  },
+  {
+    "Title": "grid-template-columns",
+    "Values": [ "none", "auto", "&lt;length&gt; &lt;flex length&gt;", "&lt;custom identifier&gt; &lt;length&gt;", "&lt;custom identifier&gt; &lt;length&gt; &lt;custom identifier&gt; &lt;custom identifier&gt;", "minmax(min, max)", "max-content", "min-content", "fit-content(&lt;length&gt;)", "fit-content(&lt;percentage&gt;)", "repeat()", "subgrid", "masonry", "&lt;length&gt; repeat() &lt;length&gt;", "minmax(min, max)\r\n        repeat() &lt;percentage&gt;", "&lt;custom identifier&gt; &lt;length&gt; &lt;custom identifier&gt;\r\n        repeat()\r\n        &lt;length&gt;", "&lt;custom identifier&gt; &lt;custom identifier&gt; &lt;length&gt;\r\n        repeat() &lt;custom identifier&gt;\r\n      " ]
+  },
+  {
+    "Title": "grid-template-rows",
+    "Values": [ "none", "auto", "&lt;length&gt; &lt;flex length&gt;", "&lt;custom identifier&gt; &lt;length&gt;", "&lt;custom identifier&gt; &lt;length&gt; &lt;custom identifier&gt; &lt;custom identifier&gt;", "minmax(min, max)", "max-content", "min-content", "fit-content(&lt;length&gt;)", "fit-content(&lt;percentage&gt;)", "repeat()", "subgrid", "masonry", "&lt;length&gt; repeat() &lt;length&gt;", "minmax(min, max)\r\n        repeat() &lt;percentage&gt;", "&lt;custom identifier&gt; &lt;length&gt; &lt;custom identifier&gt;\r\n        repeat()\r\n        &lt;length&gt;", "&lt;custom identifier&gt; &lt;custom identifier&gt; &lt;length&gt;\r\n        repeat() &lt;custom identifier&gt;\r\n      " ]
+  },
+  {
+    "Title": "hanging-punctuation",
+    "Values": [ "none", "first", "last", "force-end", "allow-end", "last force-end", "first allow-end last" ]
+  },
+  {
+    "Title": "height ",
+    "Values": [ "auto", "&lt;percentage&gt;", "&lt;length&gt;", "min-content", "max-content", "fit-content(&lt;percentage&gt;)", "fit-content(&lt;length&gt;)" ]
+  },
+  {
+    "Title": "hyphens",
+    "Values": [ "manual", "none", "auto" ]
+  },
+  {
+    "Title": "image-orientation",
+    "Values": [ "from-image", "none", "0deg", "&lt;angle&gt;", "&lt;angle&gt; flip" ]
+  },
+  {
+    "Title": "image-rendering",
+    "Values": [ "auto", "smooth", "high-quality", "crisp-edges", "pixelated" ]
+  },
+  {
+    "Title": "image-resolution",
+    "Values": [ "1dppx", "&lt;resolution&gt;", "&lt;resolution&gt; snap", "from-image", "from-image snap" ]
+  },
+  {
+    "Title": "initial-letter",
+    "Values": [ "normal", "&lt;number&gt; &lt;integer&gt;", "&lt;number&gt; drop", "&lt;number&gt; raise" ]
+  },
+  {
+    "Title": "initial-letter-align",
+    "Values": [ "alphabetic", "border-box", "ideographic", "hebrew", "hanging" ]
+  },
+  {
+    "Title": "initial-letter-wrap",
+    "Values": [ "none", "first", "all", "grid", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "inline-size",
+    "Values": [ "auto", "&lt;length&gt;", "&lt;percentage&gt;", "max-content", "min-content", "available", "fit-content", "&lt;length&gt; border-box", "&lt;percentage&gt; content-box" ]
+  },
+  {
+    "Title": "inline-sizing",
+    "Values": [ "normal", "stretch" ]
+  },
+  {
+    "Title": "inset ",
+    "Values": [ "[top] [right] [bottom] [left]" ]
+  },
+  {
+    "Title": "inset-block ",
+    "Values": [ "[inset‑block‑start] [inset‑block‑end]" ]
+  },
+  {
+    "Title": "inset-block-end",
+    "Values": [ "auto", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "inset-block-start",
+    "Values": [ "auto", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "inset-inline ",
+    "Values": [ "[inset‑inline‑start] [inset‑inline‑end]" ]
+  },
+  {
+    "Title": "inset-inline-end",
+    "Values": [ "auto", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "inset-inline-start",
+    "Values": [ "auto", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "isolation",
+    "Values": [ "auto", "isolate" ]
+  },
+  {
+    "Title": "justify-content",
+    "Values": [ "flex-start", "space-between", "space-around", "flex-end", "center", "normal", "space-between", "space-around", "space-evenly", "stretch", "center", "center safe", "center unsafe", "left", "right", "baseline", "first baseline", "last baseline", "safe", "unsafe" ]
+  },
+  {
+    "Title": "justify-items",
+    "Values": [ "legacy", "normal", "stretch", "left", "right", "center", "legacy left", "legacy right", "legacy center", "baseline", "first baseline", "last baseline", "safe center", "unsafe center", "start", "end", "self-start", "self-end", "flex-start", "flex-start", "safe", "unsafe" ]
+  },
+  {
+    "Title": "justify-self",
+    "Values": [ "auto", "normal", "stretch", "left", "right", "center", "baseline", "first baseline", "last baseline", "safe center", "unsafe center", "start", "end", "self-start", "self-end", "flex-start", "flex-start", "safe", "unsafe" ]
+  },
+  {
+    "Title": "left ",
+    "Values": [ "auto", "&lt;percentage&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "letter-spacing",
+    "Values": [ "normal", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "lighting-color",
+    "Values": [ "white", "&lt;color&gt;" ]
+  },
+  {
+    "Title": "line-break",
+    "Values": [ "auto", "strict", "normal", "loose", "anywhere" ]
+  },
+  {
+    "Title": "line-clamp",
+    "Values": [ "none", "&lt;integer&gt;", "-webkit-line-clamp" ]
+  },
+  {
+    "Title": "line-grid",
+    "Values": [ "match-parent", "create" ]
+  },
+  {
+    "Title": "line-height",
+    "Values": [ "normal", "&lt;percentage&gt;", "&lt;number&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "line-padding",
+    "Values": [ "0", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "line-snap",
+    "Values": [ "none", "baseline", "contain" ]
+  },
+  {
+    "Title": "list-style ",
+    "Values": [ "[list‑style‑position] [list‑style‑image] [list‑style‑type]" ]
+  },
+  {
+    "Title": "list-style-image",
+    "Values": [ "none", "url(\"path/file.png\")", "&lt;radial-gradient&gt;", "&lt;linear-gradient&gt;", "&lt;conic-gradient&gt;", "&lt;repeating-gradient&gt;" ]
+  },
+  {
+    "Title": "list-style-position",
+    "Values": [ "outside", "inside" ]
+  },
+  {
+    "Title": "list-style-type",
+    "Values": [ "disc", "none", "circle", "square", "decimal", "&lt;string&gt;", "symbols()", "cjk-decimal", "decimal-leading-zero", "lower-roman", "upper-roman", "lower-greek", "lower-alpha", "lower-latin", "upper-alpha", "upper-latin", "arabic-indic", "armenian", "bengali", "cambodian", "cjk-earthly-branch", "cjk-heavenly-stem", "cjk-ideographic", "devanagari", "ethiopic-numeric", "georgian", "gujarati", "gurmukhi", "hebrew", "hiragana", "hiragana-iroha", "japanese-formal", "japanese-informal", "kannada", "katakana", "katakana-iroha", "khmer", "korean-hangul-formal", "korean-hanja-formal", "korean-hanja-informal", "lao", "lower-armenian", "malayalam", "mongolian", "myanmar", "oriya", "persian", "simp-chinese-formal", "simp-chinese-informal", "tamil", "telugu", "thai", "tibetan", "trad-chinese-formal", "trad-chinese-informal", "upper-armenian", "disclosure-open", "disclosure-closed", "khmer", "khmer", "khmer" ]
+  },
+  {
+    "Title": "margin ",
+    "Values": [ "[margin‑top] [margin‑right] [margin‑bottom] [margin‑left]" ]
+  },
+  {
+    "Title": "margin-block ",
+    "Values": [ "[margin‑block‑start] [margin‑block‑end]" ]
+  },
+  {
+    "Title": "margin-block-end ",
+    "Values": [ "[margin‑top] [margin‑left] [margin‑bottom] [margin‑right]" ]
+  },
+  {
+    "Title": "margin-block-start ",
+    "Values": [ "[margin‑top] [margin‑left] [margin‑bottom] [margin‑right]" ]
+  },
+  {
+    "Title": "margin-bottom",
+    "Values": [ "0", "auto", "&lt;percentage&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "margin-break",
+    "Values": [ "auto", "keep", "discard" ]
+  },
+  {
+    "Title": "margin-inline ",
+    "Values": [ "[margin‑inline‑start] [margin‑inline‑end]" ]
+  },
+  {
+    "Title": "margin-inline-end ",
+    "Values": [ "[margin‑top] [margin‑left] [margin‑bottom] [margin‑right]" ]
+  },
+  {
+    "Title": "margin-inline-start",
+    "Values": [ "[margin‑top] [margin‑left] [margin‑bottom] [margin‑right]" ]
+  },
+  {
+    "Title": "margin-left",
+    "Values": [ "0", "auto", "&lt;percentage&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "margin-right",
+    "Values": [ "0", "auto", "&lt;percentage&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "margin-top",
+    "Values": [ "0", "auto", "&lt;percentage&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "margin-trim",
+    "Values": [ "none", "in-flow", "all" ]
+  },
+  {
+    "Title": "mask ",
+    "Values": [ "[mask‑clip] [mask‑composite] [mask‑image] [mask‑mode] [mask‑origin] [mask‑position] [mask‑repeat] [mask‑size]" ]
+  },
+  {
+    "Title": "mask-border ",
+    "Values": [ "[mask‑border‑source] [mask‑border‑slice] [mask‑border‑width] [mask‑border‑outset] [mask‑border‑repeat] [mask‑border‑mode]" ]
+  },
+  {
+    "Title": "mask-border-mode",
+    "Values": [ "alpha", "luminance" ]
+  },
+  {
+    "Title": "mask-border-repeat",
+    "Values": [ "stretch", "repeat", "round", "space", "stretch space", "repeat round" ]
+  },
+  {
+    "Title": "mask-border-slice",
+    "Values": [ "0", "&lt;percentage&gt;", "&lt;number&gt;", "&lt;number&gt; &lt;percentage&gt; &lt;number&gt; &lt;percentage&gt;", "&lt;percentage&gt; fill", "&lt;number&gt; fill" ]
+  },
+  {
+    "Title": "mask-border-source",
+    "Values": [ "none", "url(\"path/file.png\")", "&lt;radial-gradient&gt;", "&lt;linear-gradient&gt;", "&lt;conic-gradient&gt;", "&lt;repeating-gradient&gt;", "element()", "image()", "image-set()", "cross-fade()" ]
+  },
+  {
+    "Title": "mask-border-width",
+    "Values": [ "auto", "&lt;length&gt;", "&lt;percentage&gt;", "&lt;number&gt;", "&lt;number&gt; &lt;length&gt; &lt;percentage&gt; &lt;length&gt;" ]
+  },
+  {
+    "Title": "mask-clip",
+    "Values": [ "border-box", "content-box", "padding-box", "fill-box", "stroke-box", "view-box", "no-clip" ]
+  },
+  {
+    "Title": "mask-composite",
+    "Values": [ "add", "subtract", "intersect", "exclude" ]
+  },
+  {
+    "Title": "mask-image",
+    "Values": [ "none", "url(\"path/file.png\")", "&lt;radial-gradient&gt;", "&lt;linear-gradient&gt;", "&lt;conic-gradient&gt;", "&lt;repeating-gradient&gt;", "element()", "image()", "image-set()", "cross-fade()" ]
+  },
+  {
+    "Title": "mask-mode",
+    "Values": [ "match-source", "alpha", "luminance" ]
+  },
+  {
+    "Title": "mask-origin",
+    "Values": [ "border-box", "content-box", "padding-box", "fill-box", "stroke-box", "view-box" ]
+  },
+  {
+    "Title": "mask-position",
+    "Values": [ "0% 0%", "top", "bottom", "left", "right", "center", "right bottom", "left top", "center center", "&lt;percentage&gt; &lt;length&gt;" ]
+  },
+  {
+    "Title": "mask-repeat",
+    "Values": [ "repeat", "no-repeat", "space", "round", "repeat-y", "repeat-x", "repeat no-repeat", "round round", "space space" ]
+  },
+  {
+    "Title": "mask-size",
+    "Values": [ "auto", "auto auto", "cover", "contain", "auto &lt;percentage&gt;", "&lt;percentage&gt; &lt;length&gt;", "&lt;percentage&gt;", "&lt;length&gt; auto", "&lt;length&gt; &lt;percentage&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "mask-type",
+    "Values": [ "luminance", "alpha" ]
+  },
+  {
+    "Title": "max-block-size",
+    "Values": [ "none", "&lt;percentage&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "max-height",
+    "Values": [ "none", "&lt;percentage&gt;", "&lt;length&gt;", "min-content", "max-content", "fit-content(&lt;percentage&gt;)", "fit-content(&lt;length&gt;)" ]
+  },
+  {
+    "Title": "max-lines",
+    "Values": [ "none", "&lt;integer&gt;" ]
+  },
+  {
+    "Title": "max-width",
+    "Values": [ "none", "&lt;percentage&gt;", "&lt;length&gt;", "min-content", "max-content", "fit-content(&lt;percentage&gt;)", "fit-content(&lt;length&gt;)" ]
+  },
+  {
+    "Title": "min-height",
+    "Values": [ "auto", "&lt;percentage&gt;", "&lt;length&gt;", "min-content", "max-content", "fit-content(&lt;percentage&gt;)", "fit-content(&lt;length&gt;)" ]
+  },
+  {
+    "Title": "min-width",
+    "Values": [ "auto", "&lt;percentage&gt;", "&lt;length&gt;", "min-content", "max-content", "fit-content(&lt;percentage&gt;)", "fit-content(&lt;length&gt;)" ]
+  },
+  {
+    "Title": "mix-blend-mode",
+    "Values": [ "normal", "multiply", "screen", "overlay", "darken", "lighten", "color-dodge", "color-burn", "hard-light", "soft-light", "difference", "exclusion", "hue", "saturation", "color", "luminosity" ]
+  },
+  {
+    "Title": "nav-down",
+    "Values": [ "auto", "&lt;id&gt;", "current", "&lt;target-name&gt;" ]
+  },
+  {
+    "Title": "nav-left",
+    "Values": [ "auto", "&lt;id&gt;", "current", "&lt;target-name&gt;" ]
+  },
+  {
+    "Title": "nav-right",
+    "Values": [ "auto", "&lt;id&gt;", "current", "&lt;target-name&gt;" ]
+  },
+  {
+    "Title": "nav-up",
+    "Values": [ "auto", "&lt;id&gt;", "current", "&lt;target-name&gt;" ]
+  },
+  {
+    "Title": "object-fit",
+    "Values": [ "fill", "none", "cover", "scale-down", "contain scale-down", "cover scale-down" ]
+  },
+  {
+    "Title": "object-position",
+    "Values": [ "50% 50%", "top", "bottom", "left", "right", "center", "right bottom", "left top", "center center", "&lt;percentage&gt; &lt;length&gt;" ]
+  },
+  {
+    "Title": "offset ",
+    "Values": [ "[offset‑position] [offset‑path] [offset‑distance] [offset‑rotate] [offset‑anchor]" ]
+  },
+  {
+    "Title": "offset-anchor",
+    "Values": [ "auto", "top", "bottom", "left", "right", "center", "right bottom", "left top", "center center", "&lt;percentage&gt; &lt;length&gt;" ]
+  },
+  {
+    "Title": "offset-distance",
+    "Values": [ "0", "&lt;percentage&gt; &lt;length&gt;" ]
+  },
+  {
+    "Title": "offset-path",
+    "Values": [ "none", "ray()", "path()", "url(\"path/file.svg\")", "content-box", "padding-box", "border-box", "padding-box", "fill-box", "stroke-box", "view-box", "&lt;basic-shape&gt; content-box", "&lt;basic-shape&gt; padding-box", "&lt;basic-shape&gt; border-box", "&lt;basic-shape&gt; fill-box", "&lt;basic-shape&gt; stroke-box", "&lt;basic-shape&gt; view-box" ]
+  },
+  {
+    "Title": "offset-position",
+    "Values": [ "auto", "top", "bottom", "left", "right", "center", "right bottom", "left top", "center center", "&lt;percentage&gt; &lt;length&gt;" ]
+  },
+  {
+    "Title": "offset-rotate",
+    "Values": [ "auto", "reverse", "&lt;angle&gt;" ]
+  },
+  {
+    "Title": "opacity",
+    "Values": [ "1", "&lt;number&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "order ",
+    "Values": [ "0", "&lt;integer&gt;" ]
+  },
+  {
+    "Title": "orphans",
+    "Values": [ "2", "&lt;integer&gt;" ]
+  },
+  {
+    "Title": "outline ",
+    "Values": [ "[outline‑color] [outline‑style] [outline‑width]" ]
+  },
+  {
+    "Title": "outline-color",
+    "Values": [ "currentColor", "&lt;color&gt;", "invert", "invert" ]
+  },
+  {
+    "Title": "outline-offset",
+    "Values": [ "0", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "outline-style",
+    "Values": [ "none", "auto", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset" ]
+  },
+  {
+    "Title": "outline-width",
+    "Values": [ "medium", "thin", "thick", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "overflow ",
+    "Values": [ "[overflow‑x] [overflow‑y]" ]
+  },
+  {
+    "Title": "overflow-anchor",
+    "Values": [ "auto", "none" ]
+  },
+  {
+    "Title": "overflow-block",
+    "Values": [ "visible", "hidden", "clip", "scroll", "auto", "overflow-y" ]
+  },
+  {
+    "Title": "overflow-clip-margin",
+    "Values": [ "0px", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "overflow-inline",
+    "Values": [ "visible", "hidden", "clip", "scroll", "auto", "overflow-x" ]
+  },
+  {
+    "Title": "overflow-wrap",
+    "Values": [ "normal", "break-word", "anywhere", "word-wrap" ]
+  },
+  {
+    "Title": "overflow-x",
+    "Values": [ "visible", "hidden", "clip", "scroll", "auto" ]
+  },
+  {
+    "Title": "overflow-y",
+    "Values": [ "visible", "hidden", "clip", "scroll", "auto" ]
+  },
+  {
+    "Title": "overscroll-behavior ",
+    "Values": [ "[overscroll‑behavior‑x] [overscroll‑behavior‑y]" ]
+  },
+  {
+    "Title": "overscroll-behavior-block",
+    "Values": [ "auto", "contain", "none" ]
+  },
+  {
+    "Title": "overscroll-behavior-inline",
+    "Values": [ "auto", "contain", "none" ]
+  },
+  {
+    "Title": "overscroll-behavior-x",
+    "Values": [ "auto", "contain", "none" ]
+  },
+  {
+    "Title": "overscroll-behavior-y",
+    "Values": [ "auto", "contain", "none" ]
+  },
+  {
+    "Title": "padding ",
+    "Values": [ "[padding‑top] [padding‑right] [padding‑bottom] [padding‑left]" ]
+  },
+  {
+    "Title": "padding-block ",
+    "Values": [ "[padding‑block‑start] [padding‑block‑end]" ]
+  },
+  {
+    "Title": "padding-block-end",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "padding-block-start",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "padding-bottom",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "padding-inline ",
+    "Values": [ "[padding‑inline‑start] [padding‑inline‑end]" ]
+  },
+  {
+    "Title": "padding-inline-end ",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "padding-inline-start ",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "padding-left",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "padding-right",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "padding-top",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "page ",
+    "Values": [ "auto", "&lt;custom identifier&gt;" ]
+  },
+  {
+    "Title": "page-break-after",
+    "Values": [ "auto", "always", "avoid", "left", "right", "break-after" ]
+  },
+  {
+    "Title": "page-break-before",
+    "Values": [ "auto", "always", "avoid", "left", "right", "break-before" ]
+  },
+  {
+    "Title": "page-break-inside",
+    "Values": [ "auto", "avoid", "break-inside" ]
+  },
+  {
+    "Title": "page-orientation",
+    "Values": [ "upright", "rotate-left", "rotate-right", "@page" ]
+  },
+  {
+    "Title": "perspective ",
+    "Values": [ "none", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "perspective-origin ",
+    "Values": [ "50% 50%", "top", "bottom", "left", "right", "center", "right bottom", "left top", "center center", "&lt;percentage&gt; &lt;length&gt;" ]
+  },
+  {
+    "Title": "place-content",
+    "Values": [ "[align‑content] [justify‑content]" ]
+  },
+  {
+    "Title": "place-items ",
+    "Values": [ "[align‑items] [justify‑items]" ]
+  },
+  {
+    "Title": "place-self ",
+    "Values": [ "[align‑self] [justify‑self]" ]
+  },
+  {
+    "Title": "pointer-events",
+    "Values": [ "auto", "none" ]
+  },
+  {
+    "Title": "position ",
+    "Values": [ "static", "relative", "absolute", "sticky", "fixed" ]
+  },
+  {
+    "Title": "quotes",
+    "Values": [ "auto", "none", "&lt;string&gt; &lt;string&gt;", ":before", ":after" ]
+  },
+  {
+    "Title": "resize",
+    "Values": [ "none", "both", "horizontal", "vertical", "block", "inline", "overflow", "visible" ]
+  },
+  {
+    "Title": "right ",
+    "Values": [ "auto", "&lt;percentage&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "rotate ",
+    "Values": [ "none", "&lt;angle&gt;", "x &lt;angle&gt;", "y &lt;angle&gt;", "z &lt;angle&gt;", "&lt;number&gt; &lt;number&gt; &lt;number&gt; &lt;angle&gt;" ]
+  },
+  {
+    "Title": "row-gap",
+    "Values": [ "normal", "&lt;length&gt;", "&lt;percentage&gt;", "grid-row-gap" ]
+  },
+  {
+    "Title": "scale ",
+    "Values": [ "none", "&lt;number&gt;", "&lt;number&gt; &lt;number&gt;", "&lt;number&gt; &lt;number&gt; &lt;number&gt;" ]
+  },
+  {
+    "Title": "scroll-behavior",
+    "Values": [ "auto", "smooth" ]
+  },
+  {
+    "Title": "scroll-margin ",
+    "Values": [ "[scroll‑margin‑top] [scroll‑margin‑right] [scroll‑margin‑bottom] [scroll‑margin‑left]" ]
+  },
+  {
+    "Title": "scroll-margin-block ",
+    "Values": [ "[scroll‑margin‑block‑start] [scroll‑margin‑block‑end]" ]
+  },
+  {
+    "Title": "scroll-margin-block-end",
+    "Values": [ "0", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "scroll-margin-block-start",
+    "Values": [ "0", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "scroll-margin-bottom",
+    "Values": [ "0", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "scroll-margin-inline ",
+    "Values": [ "[scroll‑margin‑inline‑start] [scroll‑margin‑inline‑end]" ]
+  },
+  {
+    "Title": "scroll-margin-inline-end",
+    "Values": [ "0", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "scroll-margin-inline-start",
+    "Values": [ "0", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "scroll-margin-left",
+    "Values": [ "0", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "scroll-margin-right",
+    "Values": [ "0", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "scroll-margin-top",
+    "Values": [ "0", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "scroll-padding ",
+    "Values": [ "[scroll‑padding‑top] [scroll‑padding‑right] [scroll‑padding‑bottom] [scroll‑padding‑left]" ]
+  },
+  {
+    "Title": "scroll-padding-block ",
+    "Values": [ "[scroll‑padding‑block‑start] [scroll‑padding‑block‑end]" ]
+  },
+  {
+    "Title": "scroll-padding-block-end",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "scroll-padding-block-start",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "scroll-padding-bottom",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "scroll-padding-inline ",
+    "Values": [ "[scroll‑padding‑inline‑start] [scroll‑padding‑inline‑end]" ]
+  },
+  {
+    "Title": "scroll-padding-inline-end",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "scroll-padding-inline-start",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "scroll-padding-left",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "scroll-padding-right",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "scroll-padding-top",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "scroll-snap-align",
+    "Values": [ "none", "start", "end", "center", "start end", "end center" ]
+  },
+  {
+    "Title": "scroll-snap-stop",
+    "Values": [ "normal", "always" ]
+  },
+  {
+    "Title": "scroll-snap-type",
+    "Values": [ "none", "x", "y", "block", "inline", "both", "x mandatory", "block proximity", "mandatory", "proximity" ]
+  },
+  {
+    "Title": "scrollbar-color",
+    "Values": [ "auto", "dark", "light", "&lt;color&gt; &lt;color&gt;" ]
+  },
+  {
+    "Title": "scrollbar-gutter",
+    "Values": [ "auto", "stable", "always", "stable both force", "always both force" ]
+  },
+  {
+    "Title": "scrollbar-width",
+    "Values": [ "auto", "thin", "none" ]
+  },
+  {
+    "Title": "shape-image-threshold",
+    "Values": [ "0", "x", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "shape-inside",
+    "Values": [ "auto", "outside-shape", "display", "inset()", "circle()", "ellipse()", "polygon()", "polygon() shape-box", "path()", "url(\"path/file.svg\")", "&lt;radial-gradient&gt;", "&lt;linear-gradient&gt;", "&lt;conic-gradient&gt;", "&lt;repeating-gradient&gt;" ]
+  },
+  {
+    "Title": "shape-margin",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "shape-outside",
+    "Values": [ "none", "margin-box", "border-box", "padding-box", "content-box", "inset() border-box", "inset()", "circle()", "ellipse()", "polygon()", "path()", "url(\"path/file.svg\")", "&lt;radial-gradient&gt;", "&lt;linear-gradient&gt;", "&lt;conic-gradient&gt;", "&lt;repeating-gradient&gt;" ]
+  },
+  {
+    "Title": "shape-padding",
+    "Values": [ "none", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "spatial-navigation-action",
+    "Values": [ "auto", "focus", "scroll" ]
+  },
+  {
+    "Title": "spatial-navigation-contain",
+    "Values": [ "auto", "contain" ]
+  },
+  {
+    "Title": "spatial-navigation-function",
+    "Values": [ "normal", "grid" ]
+  },
+  {
+    "Title": "string-set",
+    "Values": [ "none", "&lt;custom identifier&gt; &lt;string&gt;" ]
+  },
+  {
+    "Title": "tab-size",
+    "Values": [ "8", "&lt;length&gt;", "&lt;number&gt;" ]
+  },
+  {
+    "Title": "table-layout",
+    "Values": [ "auto", "fixed" ]
+  },
+  {
+    "Title": "text-align ",
+    "Values": [ "start", "end", "left", "right", "center", "justify", "match-parent", "justify-all" ]
+  },
+  {
+    "Title": "text-align-all",
+    "Values": [ "start", "end", "left", "right", "center", "justify", "match-parent" ]
+  },
+  {
+    "Title": "text-align-last",
+    "Values": [ "auto", "start", "end", "left", "right", "center", "justify", "match-parent" ]
+  },
+  {
+    "Title": "text-combine-upright",
+    "Values": [ "none", "all", "digits", "digits &lt;integer&gt;" ]
+  },
+  {
+    "Title": "text-decoration ",
+    "Values": [ "[text‑decoration‑line] [text‑decoration‑thickness] [text‑decoration‑style] [text‑decoration‑color]" ]
+  },
+  {
+    "Title": "text-decoration-color",
+    "Values": [ "&lt;currentColor&gt;", "&lt;color&gt;" ]
+  },
+  {
+    "Title": "text-decoration-line",
+    "Values": [ "none", "underline", "overline", "line-through", "blink", "underline overline", "underline line-through blink", "underline overline line-through blink", "spelling-error", "grammar-error" ]
+  },
+  {
+    "Title": "text-decoration-skip",
+    "Values": [ "none", "auto" ]
+  },
+  {
+    "Title": "text-decoration-style",
+    "Values": [ "solid", "double", "dotted", "dashed", "wavy" ]
+  },
+  {
+    "Title": "text-decoration-thickness",
+    "Values": [ "auto", "from-font", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "text-emphasis ",
+    "Values": [ "[text‑emphasis‑style] [text‑emphasis‑color]" ]
+  },
+  {
+    "Title": "text-emphasis-position",
+    "Values": [ "over right", "over all", "under right", "under all" ]
+  },
+  {
+    "Title": "text-emphasis-style",
+    "Values": [ "none", "filled", "open", "dot", "circle", "double-circle", "triangle", "sesame", "filled circle", "open sesame", "&lt;string&gt;", "filled", "open" ]
+  },
+  {
+    "Title": "text-group-align",
+    "Values": [ "none", "start", "end", "left", "right", "center" ]
+  },
+  {
+    "Title": "text-indent",
+    "Values": [ "0", "&lt;length&gt;", "&lt;percentage&gt;", "&lt;length&gt; hanging", "&lt;length&gt; each-line", "&lt;percentage&gt; hanging", "&lt;percentage&gt; each-line", "&lt;length&gt; hanging each-line", "&lt;percentage&gt; hanging each-line" ]
+  },
+  {
+    "Title": "text-justify",
+    "Values": [ "auto", "none", "inter-word", "inter-character" ]
+  },
+  {
+    "Title": "text-orientation",
+    "Values": [ "mixed", "upright", "sideways" ]
+  },
+  {
+    "Title": "text-overflow",
+    "Values": [ "clip", "ellipsis", "&lt;string&gt;", "fade", "fade(&lt;length&gt;)", "fade(&lt;percentage&gt;)" ]
+  },
+  {
+    "Title": "text-rendering",
+    "Values": [ "auto", "optimizeSpeed", "optimizeLegibility", "geometricPrecision" ]
+  },
+  {
+    "Title": "text-shadow",
+    "Values": [ "none", "&lt;color&gt; &lt;length&gt; &lt;length&gt; &lt;length&gt;" ]
+  },
+  {
+    "Title": "text-size-adjust",
+    "Values": [ "auto", "none", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "text-space-trim",
+    "Values": [ "none", "trim-inner", "discard-before", "discard-after" ]
+  },
+  {
+    "Title": "text-spacing",
+    "Values": [ "normal", "none", "auto", "trim-start", "space-start", "space-first", "trim-end", "space-end", "allow-end", "trim-adjacent", "space-adjacent", "no-compress", "ideograph-alpha", "ideograph-numeric", "punctuation", "trim-start space-end trim-adjacent no-compress ideograph-numeric punctuation" ]
+  },
+  {
+    "Title": "text-transform",
+    "Values": [ "none", "capitalize", "uppercase", "lowercase", "capitalize", "full-width", "full-size-kana" ]
+  },
+  {
+    "Title": "text-underline-offset",
+    "Values": [ "auto", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "text-underline-position",
+    "Values": [ "auto", "from-font", "under", "left", "right", "from-font left", "from-font right", "under left", "under right" ]
+  },
+  {
+    "Title": "text-wrap",
+    "Values": [ "wrap", "nowrap", "balance", "stable", "pretty" ]
+  },
+  {
+    "Title": "top ",
+    "Values": [ "auto", "&lt;percentage&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "touch-action",
+    "Values": [ "auto", "none", "pan-x", "pan-left", "pan-right", "pan-y", "pan-up", "pan-down", "manipulation" ]
+  },
+  {
+    "Title": "transform ",
+    "Values": [ "none", "matrix()", "matrix3d()", "translate()", "translateX()", "translateY()", "translate3d()\r\n      ", "translateZ()", "scale()", "scaleX()", "scaleY()", "scaleZ()", "rotate()", "rotate3d()", "rotateX()", "rotateY()", "rotateZ()", "perspective()", "skew()", "skewX()", "skewY()" ]
+  },
+  {
+    "Title": "transform-box",
+    "Values": [ "view-box", "content-box", "border-box", "fill-box", "stroke-box" ]
+  },
+  {
+    "Title": "transform-origin",
+    "Values": [ "50% 50%", "top", "right", "left", "center", "bottom", "&lt;percentage&gt;", "&lt;length&gt;", "bottom &lt;percentage&gt; &lt;length&gt;" ]
+  },
+  {
+    "Title": "transform-style",
+    "Values": [ "flat", "preserve-3d" ]
+  },
+  {
+    "Title": "transition ",
+    "Values": [ "[transition‑property] [transition‑duration] [transition‑timing‑function] [transition‑delay]" ]
+  },
+  {
+    "Title": "transition-delay",
+    "Values": [ "0s", "&lt;time&gt;" ]
+  },
+  {
+    "Title": "transition-duration",
+    "Values": [ "0s", "&lt;time&gt;" ]
+  },
+  {
+    "Title": "transition-property ",
+    "Values": [ "all", "none", "color", "color, border-bottom" ]
+  },
+  {
+    "Title": "transition-timing-function",
+    "Values": [ "ease", "linear", "step-start", "step-end", "ease-in", "ease-out", "ease-in-out", "steps(&lt;integer&gt;)", "steps(&lt;integer&gt;, start)", "steps(&lt;integer&gt;, end)", "steps(&lt;integer&gt;, jump-start)", "steps(&lt;integer&gt;, jump-end)", "steps(&lt;integer&gt;, jump-none)", "steps(&lt;integer&gt;, jump-both)", "cubic-bezier(&lt;number&gt;, &lt;number&gt;, &lt;number&gt;, &lt;number&gt;)", "cubic-bezier()" ]
+  },
+  {
+    "Title": "translate ",
+    "Values": [ "none", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "unicode-bidi",
+    "Values": [ "normal", "embed", "isolate", "bidi-override", "isolate-override", "plaintext" ]
+  },
+  {
+    "Title": "user-select",
+    "Values": [ "auto", "text", "none", "contain", "all" ]
+  },
+  {
+    "Title": "vertical-align",
+    "Values": [ "baseline", "top", "middle", "bottom", "sub", "super", "text-top", "text-bottom", "&lt;length&gt;", "&lt;percentage&gt;" ]
+  },
+  {
+    "Title": "visibility",
+    "Values": [ "visible", "hidden", "collapse" ]
+  },
+  {
+    "Title": "white-space",
+    "Values": [ "normal", "pre", "nowrap", "pre-wrap", "pre-line" ]
+  },
+  {
+    "Title": "widows",
+    "Values": [ "2", "&lt;integer&gt;" ]
+  },
+  {
+    "Title": "width ",
+    "Values": [ "auto", "min-content", "max-content", "fit-content(&lt;length&gt;)", "fit-content(&lt;percentage&gt;)", "&lt;percentage&gt;", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "will-change",
+    "Values": [ "auto", "scroll-position", "contents", "transform", "top, width" ]
+  },
+  {
+    "Title": "word-break",
+    "Values": [ "normal", "keep-all", "break-all", "break-word" ]
+  },
+  {
+    "Title": "word-spacing",
+    "Values": [ "normal", "&lt;length&gt;" ]
+  },
+  {
+    "Title": "word-wrap",
+    "Values": [ "normal", "break-word", "overflow-wrap", "anywhere" ]
+  },
+  {
+    "Title": "wrap-after",
+    "Values": [ "auto", "avoid", "avoid-line", "avoid-flex", "line", "flex" ]
+  },
+  {
+    "Title": "wrap-before",
+    "Values": [ "auto", "avoid", "avoid-line", "avoid-flex", "line", "flex" ]
+  },
+  {
+    "Title": "wrap-flow",
+    "Values": [ "auto", "both", "start", "end", "minimum", "maximum", "clear" ]
+  },
+  {
+    "Title": "wrap-inside",
+    "Values": [ "auto", "avoid" ]
+  },
+  {
+    "Title": "wrap-through",
+    "Values": [ "wrap", "none" ]
+  },
+  {
+    "Title": "writing-mode",
+    "Values": [ "horizontal-tb", "vertical-rl", "vertical-lr", "sideways-rl", "sideways-lr" ]
+  },
+  {
+    "Title": "z-index",
+    "Values": [ "auto", "&lt;integer&gt;" ]
+  }
+]
