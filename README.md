@@ -27,8 +27,7 @@ string cssValuesString = (Css)DrawerStyle;
     
     Css myStyles = new Css();
 		myStyles.Add(Cp.Animation_Fill_Mode, "forwards").AddStyle(Cp.Color, "red");
-		myStyles.Align_Content = Cv.Center;
-		myStyles.Border_Left = "30px";
+		
 
                 myStyles.Add(Cp.Text_Decoration, Cv.Underline);
 
